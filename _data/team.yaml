@@ -1,0 +1,16 @@
+description: Imagine a world where you can get the highest quality PCBs at the most competitive prices - that's what we offer here at PCB Crew. Our factory-less approach to PCB design and manufacturing ensures that we are not limited to any one manufacturer. This allows us to source the best components from reliable suppliers and chooses the most suitable factory for each customer's design needs. Not only does this guarantee better quality, but it also cost savings that get passed on to you.
+members:
+  - name: Bad Dummy Tux
+    designation: CEO
+    link:
+      title: Github
+      url: 'https://github.com/dumtux'
+    description: Linux Developer | Hardware Designer
+    image: team-1.jpg
+  - name: Bad Dummy Tux
+    designation: CEO
+    link:
+      title: Github
+      url: 'https://github.com/dumtux'
+    description: Linux Developer | Hardware Designer
+    image: team-1.jpg

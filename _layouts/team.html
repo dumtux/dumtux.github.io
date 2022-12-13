@@ -1,0 +1,33 @@
+---
+layout: page
+---
+<div class="row mb-5">
+    <div class="col">
+        <h1>{{page.title}}</h1>
+        <p>{{site.data.team.description}}</p>
+    </div>
+</div>
+<div class="row row-cols-1 row-cols-lg-2 g-3">
+    {% for member in site.data.team.members %}
+    <div class="col">
+        <div class="p-3 bg-danger rounded h-100">
+            <div class="row mb-2 d-flex align-items-center">
+                <div class="col-4">
+                    {% assign image = 'assets/img/' | append: member.image%}
+                    <img src="{{image | relative_url}}" class="img-fluid p-2 team-member">
+                </div>
+                <div class="col-8">
+                    <h3 class="ff-serif text-danger">{{member.name}}</h3>
+                    <div class="fw-bold">{{member.designation}}</div>
+                    <a href="{{member.link.url}}" class="nav-link text-muted">{{member.link.title}}</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    {{member.description}}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

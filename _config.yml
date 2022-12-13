@@ -1,0 +1,30 @@
+title: PCBCrew
+description: Top-rated PCB Design and Manufacturing Company
+baseurl: '/pcbcrew'
+url: ''
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+footer_links:
+  - title: Contact Us
+    url: /contact
+
+header_links:
+  - title: Home
+    url: /
+  - title: Team
+    url: /team
+  - title: About
+    url: /about
+  - title: Services
+    url: /services
+
+header_action_title: Contact Us
+header_action_url: /contact
+
+contacts:
+  email: hello@pcbcrew.com
+  phone: +18012312312312
+  address: Shenzhen, Guangdong 518100, CN

@@ -1,0 +1,30 @@
+---
+layout: default
+---
+<style>
+    h1 {
+        font-family: 'Playfair Display', serif;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    p {
+        line-height: 1.8em;
+        font-size: 1.2em;
+    }
+</style>
+<div class="container mb-5">
+    <div class="row py-5">
+        <div class="col-12 col-lg-8">{{content | markdownify}}</div>
+    </div>
+    {% if page.show_services %}
+    <div class="row">
+        <div class="col-12 col-lg-8">{% include services.html %}</div>
+    </div>
+    {% endif %}
+    {% if page.show_contact_form %}
+    <div class="row">
+        <div class="col-12 col-lg-8">{% include contact.html %}</div>
+    </div>
+    {% endif %}
+</div>
