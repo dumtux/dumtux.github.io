@@ -1,7 +1,7 @@
 title: PCBCrew
 description: Top-rated PCB Design and Manufacturing Company
-baseurl: '/pcbcrew'
-url: ''
+baseurl: ''
+url: 'www.pcbcrew.com'
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
