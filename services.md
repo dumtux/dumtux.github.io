@@ -3,11 +3,9 @@ layout: page
 show_services: true
 show_contact_form: true
 permalink: /services/
+title: Services
+image: "/assets/img/services.jpg"
 ---
-
-# We turn your ideas into products
-
-![Ideas](/assets/img/ideas.jpeg)
 
 Bring your ideas to us, and we will turn them into reality. PCBs often have a steep learning curve, but PCB Crew makes it easy. We carefully analyze your design and use our expertise to develop the ideal PCB that meets both your needs and budget.
 

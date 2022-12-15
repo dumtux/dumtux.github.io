@@ -1,13 +1,10 @@
 ---
 layout: page
-title: About
+title: About PCBCrew
 show_contact_form: true
 permalink: /about/
+image: "/assets/img/about.jpg"
 ---
-
-# About PCBCrew
-
-![Image of PCB](/assets/img/pcb2.jpg)
 
 Welcome to PCB Crew – the go-to service provider for all your hardware development and manufacturing needs. We offer the best in schematic design, PCB fabrication and assembly (PCBA), and firmware/software development for your hardware.
 
