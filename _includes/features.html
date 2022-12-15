@@ -1,12 +1,10 @@
-<div class="py-5">
-  <div class="row row-cols-1 row-cols-lg-3 g-5">
-    {% for feature in site.data.features %}
-    <div class="col">
-      <div class="p-5 bg-white h-100 shadow shadow text-center rounded">
-        <h3 class="ff-serif text-danger fw-bold">{{feature.title}}</h3>
-        <div class="fs-6">{{feature.description}}</div>
-      </div>
+<div class="row row-cols-1 row-cols-lg-3 g-5">
+  {% for feature in site.data.features %}
+  <div class="col">
+    <div class="p-5 bg-white h-100 shadow shadow text-center rounded">
+      <h3 class="ff-serif text-danger fw-bold">{{feature.title}}</h3>
+      <div class="fs-6">{{feature.description}}</div>
     </div>
-    {% endfor %}
   </div>
+  {% endfor %}
 </div>
