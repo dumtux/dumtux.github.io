@@ -4,54 +4,82 @@
     </div>
 </nav> -->
 <div class="container-fluid shadow shadow-sm">
-    <div class="container">
-        <div class="row py-3 d-flex align-items-center">
-            <div class="col">
-                <div class="fs-4 fw-bold text-danger ff-serif">
-                    <a href="{{'/' | relative_url}}" class="navbar-brand">
-                        <img src="{{'assets/img/logo.svg' | relative_url}}" class="img-fluid logo">
-                    </a>
-                </div>
-            </div>
-            <div class="col">
-                <div x-data="{open:false}">
-                    <div class="text-end d-block d-md-none">
-                        <button class="btn text-danger" @click="open=true">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                                class="bi bi-list" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                            </svg>
-                        </button>
-                        <div x-show="open">
-                            <div class="menu fade-in">
-                                <ul class="nav flex-column justify-content-center mb-3">
-                                    {%for item in site.header_links %}
-                                    <li class="nav-item text-center fade-in">
-                                        <a href="{{item.url | relative_url}}"
-                                            class="nav-link text-white fs-2 ff-serif">{{item.title}}</a>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                                <button class="btn text-white menu-close-button fade-in" @click="open=false"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-                                        class="bi bi-x-lg" viewBox="0 0 16 16">
-                                        <path
-                                            d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <ul class="nav justify-content-end d-none d-md-flex">
-                    {% for item in site.header_links %}
-                    <li class="nav-item">
-                        <a href="{{item.url | relative_url}}" class="nav-link px-3 text-danger">{{item.title}}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
+  <div class="container">
+    <div class="row py-3 d-flex align-items-center">
+      <div class="col">
+        <div class="fs-4 fw-bold text-danger ff-serif">
+          <a href="{{'/' | relative_url}}" class="navbar-brand">
+            <img
+              src="{{'assets/img/logo.svg' | relative_url}}"
+              class="img-fluid logo"
+            />
+          </a>
         </div>
+      </div>
+      <div class="col">
+        <div x-data="{open:false}">
+          <div class="text-end d-block d-md-none">
+            <button class="btn text-danger" @click="open=true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                fill="currentColor"
+                class="bi bi-list"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </svg>
+            </button>
+            <div x-show="open">
+              <div class="menu fade-in">
+                <ul class="nav flex-column justify-content-center mb-3">
+                  {%for item in site.header_links %}
+                  <li class="nav-item text-center fade-in">
+                    <a
+                      href="{{item.url | relative_url}}"
+                      class="nav-link text-white fs-2 ff-serif"
+                      >{{item.title}}</a
+                    >
+                  </li>
+                  {% endfor %}
+                </ul>
+                <button
+                  class="btn text-white menu-close-button fade-in"
+                  @click="open=false"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="32"
+                    height="32"
+                    fill="currentColor"
+                    class="bi bi-x-lg"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="nav justify-content-end d-none d-md-flex">
+          {% for item in site.header_links %}
+          <li class="nav-item">
+            <a
+              href="{{item.url | relative_url}}"
+              class="nav-link px-3 text-danger fw-bold"
+              >{{item.title}}</a
+            >
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
     </div>
+  </div>
 </div>

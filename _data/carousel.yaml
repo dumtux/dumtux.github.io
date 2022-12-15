@@ -1,0 +1,17 @@
+- title: Catchy title 01
+  description: Get high-quality PCB design and manufacturing services at the competitive prices with PCBCrew. We have decades of experience and expertise. Contact us today to learn more!
+  image: "/assets/img/pcb.png"
+  action: Contact Us
+  action_url: "#contact"
+
+- title: Catchy title 02
+  description: Get high-quality PCB design and manufacturing services at the competitive prices with PCBCrew. We have decades of experience and expertise. Contact us today to learn more!
+  action: Contact Us
+  action_url: "#contact"
+  image: "/assets/img/pcb3.jpg"
+
+- title: Catchy title 03
+  description: Get high-quality PCB design and manufacturing services at the competitive prices with PCBCrew. We have decades of experience and expertise. Contact us today to learn more!
+  action: Contact Us
+  action_url: "#contact"
+  image: "/assets/img/pcb4.jpg"
