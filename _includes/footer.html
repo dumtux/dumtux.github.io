@@ -1,19 +1,21 @@
-<footer style="background-color: #bb1c16;">
-    <div class="container">
-        <div class="row py-3 text-light">
-            <div class="col text-center">© Copyright {{'now' | date: '%Y'}} {{site.title}} | All rights reserved.</div>
-        </div>
+<footer class="bg-danger">
+  <div class="container">
+    <div class="row py-3 text-light">
+      <div class="col text-center">
+        © Copyright {{'now' | date: '%Y'}} {{site.title}} | All rights reserved.
+      </div>
     </div>
+  </div>
 </footer>
 <script src="//unpkg.com/alpinejs" defer></script>
 <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const imgs = document.querySelectorAll('img')
-        imgs.forEach(img => {
-            if (!img.classList.contains('team-member')) {
-                img.classList.add('img-fluid')
-                img.classList.add('rounded')
-            }
-        })
-    })
+  document.addEventListener("DOMContentLoaded", () => {
+    const imgs = document.querySelectorAll("img");
+    imgs.forEach((img) => {
+      if (!img.classList.contains("team-member")) {
+        img.classList.add("img-fluid");
+        img.classList.add("rounded");
+      }
+    });
+  });
 </script>

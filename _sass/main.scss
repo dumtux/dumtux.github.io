@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=IBM+Plex+Sans:wght@400;700&display=swap');
+@import 'bootstrap/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&display=swap');
+
 html,
 body {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .ff-serif {
   font-family: 'Playfair Display', serif;
 }
-.bg-danger {
-  background-color: #fff6f8 !important;
+.bg-tint {
+  background-color: rgba($color: $danger, $alpha: 0.1) !important;
 }
 
 .logo {
