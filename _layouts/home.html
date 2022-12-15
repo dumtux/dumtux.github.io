@@ -2,10 +2,7 @@
 layout: default
 ---
 
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
-/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
 <section class="splide" aria-label="Splide Basic HTML Example">
   <div class="splide__track">
     <ul class="splide__list">
@@ -13,12 +10,8 @@ layout: default
       relative_url %}
       <li class="splide__slide">
         <div
-          style="background: url('{{image}}') no-repeat; background-size: cover; background-position: center; background-attachment: fixed;"
-        >
-          <div
-            style="background: rgba(0, 0, 0, 0.7)"
-            class="d-flex align-items-center"
-          >
+          style="background: url('{{image}}') no-repeat; background-size: cover; background-position: center; background-attachment: fixed;">
+          <div style="background: rgba(0, 0, 0, 0.7)" class="d-flex align-items-center">
             <div class="container py-5">
               <div class="row d-flex align-items-center h-100 py-5">
                 <div class="col">
@@ -27,11 +20,7 @@ layout: default
                       {{item.title}}
                     </h1>
                     <p class="fs-5 text-light">{{item.description}}</p>
-                    <a
-                      href="{{item.action_url | relative_url}}"
-                      class="btn btn-danger btn-lg"
-                      >{{item.action}}</a
-                    >
+                    <a href="{{item.action_url | relative_url}}" class="btn btn-danger btn-lg">{{item.action}}</a>
                   </div>
                 </div>
               </div>
@@ -46,35 +35,25 @@ layout: default
 <div class="container py-5">
   <div class="row d-flex align-items-center row-cols-1 row-cols-lg-2 g-5">
     <div class="col text-center">
-      <img
-        src="{{'assets/img/logo.png'}}"
-        class="img-fluid"
-        style="max-height: 20em"
-      />
+      <img src="{{'assets/img/logo.png'}}" class="img-fluid" style="max-height: 20em" />
     </div>
     <div class="col text-center text-lg-start">
       <div class="py-3">
         <h2 class="mb-5 ff-serif text-danger fs-1">{{page.about_us_title}}</h2>
         <p class="fs-6 mb-5 text-dark">{{page.about_us_description}}</p>
-        <a
-          href="{{'about' | relative_url}}"
-          class="btn btn-outline-danger text-uppercase"
-          >Learn more…</a
-        >
+        <a href="{{'about' | relative_url}}" class="btn btn-outline-danger text-uppercase">Learn more…</a>
       </div>
     </div>
   </div>
 </div>
-<div
-  style="
+<div style="
     background: url('/assets/img/pcb3.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-  "
->
+  ">
   <div style="background: rgba(0, 0, 0, 0.7)">
     <div class="container py-5">
-      <h3 class="ff-serif w-100 text-center text-light mb-5">
+      <h3 class="ff-serif w-100 text-center text-light mb-5 fs-1">
         Manufacturing partners
       </h3>
       <div class="row">
@@ -92,31 +71,28 @@ layout: default
   </div>
 </div>
 <div class="container">
-  <h3 class="ff-serif w-100 text-center text-danger py-5">
-    Something different
+  <h3 class="ff-serif w-100 text-center text-danger py-5 fs-1">
+    Our services
   </h3>
   <div class="row">
     <div class="col">
       {% include services.html %}
       <div class="text-center">
-        <a
-          href="{{'/services/' | relative_url}}"
-          class="btn btn-outline-danger text-uppercase mb-5"
-          >Learn more…</a
-        >
+        <a href="{{'/services/' | relative_url}}" class="btn btn-outline-danger text-uppercase mb-5">Learn more…</a>
       </div>
     </div>
   </div>
 </div>
-<div
-  style="
+<div style="
     background: url('/assets/img/pcb4.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-  "
->
+  ">
   <div style="background: rgba(0, 0, 0, 0.7)">
     <div class="container py-5">
+      <h3 class="ff-serif fs-1 w-100 text-center text-light py-5">
+        Something different
+      </h3>
       <div class="row">
         <div class="col">{% include features.html %}</div>
       </div>
