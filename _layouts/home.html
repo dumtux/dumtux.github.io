@@ -1,68 +1,132 @@
 ---
 layout: default
 ---
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+/>
+
 <div class="container">
-    <div class="py-5">
-        <div class="row d-flex align-items-center row-cols-1 row-cols-lg-2">
-            <div class="col order-lg-first order-last">
-                <div class="py-5 text-center text-md-start">
-                    <h1 class="display-4 mb-3 fw-bold ff-serif">{{page.title}}</h1>
-                    <p class="fs-5 text-muted">{{page.subtitle}}</p>
-                    <a href="{{page.action_url | relative_url}}" class="btn btn-danger btn-lg">{{page.action}}</a>
-                </div>
-            </div>
-            <div class="col order-first order-lg-last">
-                <div class="py-4">
-                    <img src="{{'assets/img/pcb.png' | relative_url}}" alt="" srcset=""
-                        class="img-fluid rounded shadow">
-                </div>
-            </div>
+  <div class="py-5">
+    <div class="row d-flex align-items-center row-cols-1 row-cols-lg-2">
+      <div class="col order-lg-first order-last">
+        <div class="py-5 text-center text-md-start">
+          <h1 class="display-4 mb-3 fw-bold ff-serif">{{page.title}}</h1>
+          <p class="fs-5 text-muted">{{page.subtitle}}</p>
+          <a
+            href="{{page.action_url | relative_url}}"
+            class="btn btn-danger btn-lg"
+            >{{page.action}}</a
+          >
         </div>
+      </div>
+      <div class="col order-first order-lg-last">
+        <div class="py-4">
+          <img
+            src="{{'assets/img/pcb.png' | relative_url}}"
+            alt=""
+            srcset=""
+            class="img-fluid rounded shadow"
+          />
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 <div class="container-fluid bg-danger">
-    <div class="container">
-        <div class="row d-flex align-items-center row-cols-1 row-cols-lg-2">
-            <div class="col text-center">
-                <img src="{{'assets/img/logo.png'}}" class="img-fluid" style="max-height: 20em;">
-            </div>
-            <div class="col text-center text-lg-start">
-                <div class="py-5">
-                    <h2 class="mb-5 ff-serif text-danger fs-1">{{page.about_us_title}}</h2>
-                    <p class="fs-5 mb-5 text-dark">{{page.about_us_description}}</p>
-                    <a href="{{'about' | relative_url}}" class="btn btn-outline-danger text-uppercase">Learn more…</a>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row d-flex align-items-center row-cols-1 row-cols-lg-2">
+      <div class="col text-center">
+        <img
+          src="{{'assets/img/logo.png'}}"
+          class="img-fluid"
+          style="max-height: 20em"
+        />
+      </div>
+      <div class="col text-center text-lg-start">
+        <div class="py-5">
+          <h2 class="mb-5 ff-serif text-danger fs-1">
+            {{page.about_us_title}}
+          </h2>
+          <p class="fs-5 mb-5 text-dark">{{page.about_us_description}}</p>
+          <a
+            href="{{'about' | relative_url}}"
+            class="btn btn-outline-danger text-uppercase"
+            >Learn more…</a
+          >
         </div>
+      </div>
     </div>
+  </div>
 </div>
 <div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="py-5">
+        {% include services.html %}
+        <div class="text-center">
+          <a
+            href="{{'/services/' | relative_url}}"
+            class="btn btn-outline-danger text-uppercase"
+            >Learn more…</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid bg-danger">
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col">
+        <div class="text-center">
+          <h3 class="ff-serif text-danger mb-3">Our Partners</h3>
+          <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <div class="py-5">
+                    <img src="/assets/img/partner1.png" alt="" srcset="" />
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="py-5">
+                    <img src="/assets/img/partner2.png" alt="" srcset="" />
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <div class="py-5">
+                    <img src="/assets/img/partner3.png" alt="" srcset="" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
     <div class="row">
-        <div class="col">
-            <div class="py-5">
-                {% include services.html %}
-                <div class="text-center">
-                    <a href="{{'/services/' | relative_url}}" class="btn btn-outline-danger text-uppercase">Learn
-                        more…</a>
-                </div>
-            </div>
-        </div>
+      <div class="col">{% include features.html %}</div>
     </div>
-</div>
-<div class="container-fluid bg-danger">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                {% include features.html %}
-            </div>
-        </div>
-    </div>
+  </div>
 </div>
 
 <div class="container">
-    <div class="row py-5">
-        <div class="col-12 offset-md-3 col-md-6">
-            {% include contact.html %}
-        </div>
-    </div>
+  <div class="row py-5">
+    <div class="col-12 offset-md-3 col-md-6">{% include contact.html %}</div>
+  </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    new Splide(".splide", {
+      type: "fade",
+      autoplay: true,
+      rewind: true,
+      pagination: false,
+      arrows: false,
+    }).mount();
+  });
+</script>
