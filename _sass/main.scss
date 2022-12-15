@@ -32,6 +32,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: var(--bs-danger);
+  z-index: 10000;
 }
 
 .fade-in {

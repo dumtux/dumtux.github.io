@@ -6,70 +6,35 @@ layout: default
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
 />
-
-<!-- <div class="container">
-  <div class="py-5">
-    <div class="row d-flex align-items-center row-cols-1 row-cols-lg-2">
-      <div class="col order-lg-first order-last">
-        <div class="py-5 text-center text-md-start">
-          <h1 class="display-4 mb-3 fw-bold ff-serif">{{page.title}}</h1>
-          <p class="fs-5 text-muted">{{page.subtitle}}</p>
-          <a
-            href="{{page.action_url | relative_url}}"
-            class="btn btn-danger btn-lg"
-            >{{page.action}}</a
-          >
-        </div>
-      </div>
-      <div class="col order-first order-lg-last">
-        <div class="py-4">
-          <img
-            src="{{'assets/img/pcb.png' | relative_url}}"
-            alt=""
-            srcset=""
-            class="img-fluid rounded shadow"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
 <section class="splide" aria-label="Splide Basic HTML Example">
   <div class="splide__track">
     <ul class="splide__list">
       {% for item in site.data.carousel %} {% assign image = item.image |
       relative_url %}
-      <li
-        class="splide__slide"
-        style="background: url('{{image}}') no-repeat; background-size: cover; background-position: center;"
-      >
-        <div style="background: rgba(0, 0, 0, 0.7)">
-          <div class="container py-5">
-            <div class="row d-flex align-items-center row-cols-1 row-cols-lg-2">
-              <div class="col order-lg-first order-last">
-                <div class="py-5 text-center text-md-start">
-                  <h1 class="display-4 mb-3 fw-bold ff-serif text-white">
-                    {{item.title}}
-                  </h1>
-                  <p class="fs-5 text-light">{{item.description}}</p>
-                  <a
-                    href="{{item.action_url | relative_url}}"
-                    class="btn btn-danger btn-lg"
-                    >{{item.action}}</a
-                  >
+      <li class="splide__slide">
+        <div
+          style="background: url('{{image}}') no-repeat; background-size: cover; background-position: center; background-attachment: fixed;"
+        >
+          <div
+            style="background: rgba(0, 0, 0, 0.7)"
+            class="d-flex align-items-center"
+          >
+            <div class="container py-5">
+              <div class="row d-flex align-items-center h-100 py-5">
+                <div class="col">
+                  <div class="py-5 text-center text-md-start">
+                    <h1 class="display-4 mb-3 fw-bold ff-serif text-white">
+                      {{item.title}}
+                    </h1>
+                    <p class="fs-5 text-light">{{item.description}}</p>
+                    <a
+                      href="{{item.action_url | relative_url}}"
+                      class="btn btn-danger btn-lg"
+                      >{{item.action}}</a
+                    >
+                  </div>
                 </div>
               </div>
-              <!-- <div class="col order-first order-lg-last">
-                <div class="py-4">
-                  {% assign url = item.image | relative_url %}
-                  <img
-                    src="{{url}}"
-                    alt=""
-                    srcset=""
-                    class="img-fluid rounded shadow"
-                  />
-                </div>
-              </div> -->
             </div>
           </div>
         </div>
@@ -100,20 +65,45 @@ layout: default
     </div>
   </div>
 </div>
-<div class="bg-tint">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="py-5">
-          {% include services.html %}
-          <div class="text-center">
-            <a
-              href="{{'/services/' | relative_url}}"
-              class="btn btn-outline-danger text-uppercase"
-              >Learn more…</a
-            >
-          </div>
+<div
+  style="
+    background: url('/assets/img/pcb3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+  "
+>
+  <div style="background: rgba(0, 0, 0, 0.7)">
+    <div class="container py-5">
+      <h3 class="ff-serif w-100 text-center text-light mb-5">
+        Manufacturing partners
+      </h3>
+      <div class="row">
+        <div class="col text-center">
+          <img src="/assets/img/partner1.png" class="img-fluid" />
         </div>
+        <div class="col text-center">
+          <img src="/assets/img/partner2.png" class="img-fluid" />
+        </div>
+        <div class="col text-center">
+          <img src="/assets/img/partner3.png" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h3 class="ff-serif w-100 text-center text-danger py-5">
+    Something different
+  </h3>
+  <div class="row">
+    <div class="col">
+      {% include services.html %}
+      <div class="text-center">
+        <a
+          href="{{'/services/' | relative_url}}"
+          class="btn btn-outline-danger text-uppercase mb-5"
+          >Learn more…</a
+        >
       </div>
     </div>
   </div>
@@ -127,18 +117,6 @@ layout: default
 >
   <div style="background: rgba(0, 0, 0, 0.7)">
     <div class="container py-5">
-      <h3 class="ff-serif w-100 text-center text-light mb-5">Our Partners</h3>
-      <div class="row">
-        <div class="col text-center">
-          <img src="/assets/img/partner1.png" class="img-fluid" />
-        </div>
-        <div class="col text-center">
-          <img src="/assets/img/partner2.png" class="img-fluid" />
-        </div>
-        <div class="col text-center">
-          <img src="/assets/img/partner3.png" class="img-fluid" />
-        </div>
-      </div>
       <div class="row">
         <div class="col">{% include features.html %}</div>
       </div>
@@ -161,6 +139,8 @@ layout: default
       rewind: true,
       pagination: false,
       arrows: false,
+      speed: 3000,
+      height: "50%",
     }).mount();
   });
 </script>

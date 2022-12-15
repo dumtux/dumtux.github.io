@@ -1,15 +1,12 @@
-<div class="py-5">
-  <h2 class="mb-5 text-danger text-center ff-serif">Our services</h2>
-  <div
-    class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-5 justify-content-center g-5"
-  >
-    {% for service in site.data.services %}
-    <div class="col">
-      <div class="p-3 text-center">
-        <h3 class="fs-4 ff-serif fw-bold text-dark">{{service.title}}</h3>
-        <p class="fs-6 text-dark">{{service.description}}</p>
-      </div>
+<div
+  class="row row-cols-1 row-cols-md-2 row-cols-lg-3 mb-5 justify-content-center g-5"
+>
+  {% for service in site.data.services %}
+  <div class="col">
+    <div class="p-3 text-center">
+      <h3 class="fs-4 fw-bold text-dark">{{service.title}}</h3>
+      <p class="fs-6 text-dark">{{service.description}}</p>
     </div>
-    {% endfor %}
   </div>
+  {% endfor %}
 </div>

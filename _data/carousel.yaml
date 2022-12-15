@@ -1,17 +1,17 @@
-- title: Catchy title 01
-  description: Get high-quality PCB design and manufacturing services at the competitive prices with PCBCrew. We have decades of experience and expertise. Contact us today to learn more!
-  image: "/assets/img/pcb.png"
+- title: Welcome to PCBCrew
+  description: PCBCrew is the go-to service provider for all your hardware development and manufacturing needs. We offer the best in schematic design, PCB fabrication and assembly (PCBA), and firmware/software development for your hardware.
+  image: "/assets/img/pcb2.jpg"
   action: Contact Us
   action_url: "#contact"
 
-- title: Catchy title 02
-  description: Get high-quality PCB design and manufacturing services at the competitive prices with PCBCrew. We have decades of experience and expertise. Contact us today to learn more!
+- title: Best talent. Best products.
+  description: Our engineers, who have worked in industries such as IoT, automobile, medical and industrial for 10+ years, understand the importance of quality and only source the best components.
   action: Contact Us
   action_url: "#contact"
   image: "/assets/img/pcb3.jpg"
 
-- title: Catchy title 03
-  description: Get high-quality PCB design and manufacturing services at the competitive prices with PCBCrew. We have decades of experience and expertise. Contact us today to learn more!
+- title: Committed to quality and affordability
+  description: Our commitment to quality and affordability makes us the go-to choice for all your PCB needs in China. Contact us today to learn more about how we can help you.
   action: Contact Us
   action_url: "#contact"
   image: "/assets/img/pcb4.jpg"
