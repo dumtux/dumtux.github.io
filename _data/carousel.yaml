@@ -1,17 +1,17 @@
-- title: Welcome to PCBCrew
-  description: PCBCrew is the go-to service provider for all your hardware development and manufacturing needs. We offer the best in schematic design, PCB fabrication and assembly (PCBA), and firmware/software development for your hardware.
+- title: PCB Fabrication/Assembly
+  description: Pick the right factory for your budget/quality, we manage quick lead time by optimizing the BOM.
   image: "/assets/img/pcb2.jpg"
   action: Contact Us
   action_url: "#contact"
 
-- title: Best talent. Best products.
-  description: Our engineers, who have worked in industries such as IoT, automobile, medical and industrial for 10+ years, understand the importance of quality and only source the best components.
+- title: Hardware Design/Development
+  description: Design system architecture, schematics and PCB. Develop firmware and software to be used.
   action: Contact Us
   action_url: "#contact"
   image: "/assets/img/pcb3.jpg"
 
-- title: Committed to quality and affordability
-  description: Our commitment to quality and affordability makes us the go-to choice for all your PCB needs in China. Contact us today to learn more about how we can help you.
+- title: Save $ with Free Tech Consulting
+  description: Our PCB, hardware, and software engineers are waiting for you in the chatroom.
   action: Contact Us
   action_url: "#contact"
   image: "/assets/img/pcb4.jpg"
