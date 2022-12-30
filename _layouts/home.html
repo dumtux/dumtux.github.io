@@ -57,10 +57,12 @@ layout: default
         Manufacturing partners
       </h3>
       <div class="row row-cols-1 row-cols-md-2 py-5 g-5">
+        {% for partner in site.data.partners %}
         <div class="col text-center">
-          <img src="/assets/img/partner1.png" class="img-fluid" />
+          <img src="{{partner.img | relative_url}}" class="img-fluid" />
         </div>
-        <div class="col text-center">
+        {% endfor %}
+        <!-- <div class="col text-center">
           <img src="/assets/img/partner2.png" class="img-fluid" />
         </div>
         <div class="col text-center">
@@ -68,7 +70,7 @@ layout: default
         </div>
         <div class="col text-center">
           <img src="/assets/img/partner4.png" class="img-fluid" />
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
