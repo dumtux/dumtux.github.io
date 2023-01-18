@@ -15,3 +15,9 @@
   action: Contact Us
   action_url: "#contact"
   image: "/assets/img/pcb4.jpg"
+
+- title: 3D Enclosure design for your prototypes
+  image: "/assets/img/header2.jpg"
+
+- title: We support open-source hardware projects with 30% discounts
+  image: "/assets/img/header1.jpg"
