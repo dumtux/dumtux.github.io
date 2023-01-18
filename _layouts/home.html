@@ -2,11 +2,14 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+/>
 <section class="splide" aria-label="Splide Basic HTML Example">
   <div class="splide__track">
     <ul class="splide__list">
-      {% for item in site.data.carousel %} {% assign image = item.image |
+      <!-- {% for item in site.data.carousel %} {% assign image = item.image |
       relative_url %}
       <li class="splide__slide">
         <div
@@ -28,29 +31,106 @@ layout: default
           </div>
         </div>
       </li>
-      {% endfor %}
+      {% endfor %} -->
+      <li class="splide__slide">
+        <div
+          style="
+            background: url('assets/img/header2.jpg') no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: local;
+          "
+        >
+          <div style="background: rgba(255, 255, 255, 0.5)">
+            <div class="container">
+              <div class="row h-100">
+                <div class="col">
+                  <div
+                    class="min-vh-75 d-flex align-items-center display-4 fw-bold"
+                  >
+                    <div>
+                      <span style="color: #fe9900">3D Enclosure</span>
+                      <br />
+                      <span style="color: #bb1754"
+                        >design for your prototype</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="splide__slide">
+        <div
+          style="
+            background: url('assets/img/header1.jpg') no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: local;
+          "
+        >
+          <div style="background: rgba(0, 0, 0, 0.1)">
+            <div class="container">
+              <div class="row h-100">
+                <div class="col">
+                  <div
+                    class="min-vh-75 d-flex align-items-center fs-1 fw-bold text-white"
+                  >
+                    <div>
+                      <span>We</span>
+                      <br />
+                      <span>support</span>
+                      <br />
+                      <span style="color: #fdfe00">open-source</span>
+                      <br />
+                      <span>hardware projects</span>
+                      <br />
+                      <span
+                        >with
+                        <span style="color: #fdfe00">30% discounts</span></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
     </ul>
   </div>
 </section>
 <div class="container py-5">
   <div class="row d-flex align-items-center row-cols-1 row-cols-lg-2 g-5">
     <div class="col text-center">
-      <img src="{{'assets/img/logo.png'}}" class="img-fluid" style="max-height: 20em" />
+      <img
+        src="{{'assets/img/logo.png'}}"
+        class="img-fluid"
+        style="max-height: 20em"
+      />
     </div>
     <div class="col text-center text-lg-start">
       <div class="py-3">
         <h2 class="mb-5 ff-serif text-danger fs-1">{{page.about_us_title}}</h2>
         <p class="fs-6 mb-5 text-dark">{{page.about_us_description}}</p>
-        <a href="{{'about' | relative_url}}" class="btn btn-outline-danger text-uppercase">Learn more…</a>
+        <a
+          href="{{'about' | relative_url}}"
+          class="btn btn-outline-danger text-uppercase"
+          >Learn more…</a
+        >
       </div>
     </div>
   </div>
 </div>
-<div style="
+<div
+  style="
     background: url('/assets/img/pcb3.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-  ">
+  "
+>
   <div style="background: rgba(0, 0, 0, 0.7)">
     <div class="container py-5">
       <h3 class="ff-serif w-100 text-center text-light mb-5 fs-1">
@@ -76,23 +156,27 @@ layout: default
   </div>
 </div>
 <div class="container py-5">
-  <h3 class="ff-serif w-100 text-center text-danger mb-5 fs-1">
-    Our services
-  </h3>
+  <h3 class="ff-serif w-100 text-center text-danger mb-5 fs-1">Our services</h3>
   <div class="row">
     <div class="col">
       {% include services.html %}
       <div class="text-center">
-        <a href="{{'/services/' | relative_url}}" class="btn btn-outline-danger text-uppercase">Learn more…</a>
+        <a
+          href="{{'/services/' | relative_url}}"
+          class="btn btn-outline-danger text-uppercase"
+          >Learn more…</a
+        >
       </div>
     </div>
   </div>
 </div>
-<div style="
+<div
+  style="
     background: url('/assets/img/pcb4.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-  ">
+  "
+>
   <div style="background: rgba(0, 0, 0, 0.7)">
     <div class="container py-5">
       <h3 class="ff-serif fs-1 w-100 text-center text-light mb-5">

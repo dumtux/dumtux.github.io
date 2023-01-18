@@ -1,12 +1,12 @@
 @import 'bootstrap/bootstrap.scss';
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400;700&family=Lato:wght@400;700&display=swap');
 
 html,
 body {
   font-family: 'Lato', sans-serif;
 }
 .ff-serif {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
 }
 .bg-tint {
   background-color: rgba($color: $danger, $alpha: 0.05) !important;
@@ -41,6 +41,11 @@ body {
   -ms-animation: fadein 1s; /* Internet Explorer */
   -o-animation: fadein 1s; /* Opera < 12.1 */
   animation: fadein 1s;
+}
+
+
+.min-vh-75{
+  min-height: 75vh;
 }
 
 @keyframes fadein {
