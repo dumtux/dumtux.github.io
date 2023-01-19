@@ -6,21 +6,8 @@ permalink: /about/
 image: "/assets/img/about.jpg"
 ---
 
-Welcome to PCB Crew – the go-to service provider for all your hardware development and manufacturing needs. We offer the best in schematic design, PCB fabrication and assembly (PCBA), and firmware/software development for your hardware.
+PCBCrew is the premier provider of custom hardware development and manufacturing solutions. We provide everything you need to create the perfect circuit board, from schematic design to PCB fabrication, assembly, and firmware/software development. 
 
-We take pride in our factory-less approach to PCB design and manufacturing. We partner with the leading PCB manufacturers in China, allowing us to analyze every customer's design and choose the best possible factory for their product. Our engineers, who have worked in industries such as IoT, automobile, medical and industrial for 10+ years, understand the importance of quality and only source the best components.
+Our factory-less approach ensures that we can customize each product to the highest quality standards. We partner with the leading PCB manufacturers in China and carefully analyze each customer’s design to choose the best possible factory for their product. Our engineers have been part of the industry for over 10 years and have developed solutions for industries such as IoT, automobile, medical and industrial. 
 
-Our commitment to quality and affordability makes us the go-to choice for all your PCB needs in China. Contact us today to learn more about how we can help you.
-
-# What makes us unique?
-
-- Fast turn-around time
-- High-quality components
-- Cost efficiency and affordability
-- Low minimum order quantity
-- No factory limitations
-- Highly experienced engineers
-- Decades of industry experience
-- Dedicated customer support
-- Shipping to any part of the world
-- Discounts of up to 30% on PCBA prototyping for open-source projects
+At PCBCrew, we understand that your product is an integral part of your business and we strive to provide the highest quality solutions. We are committed to delivering products that are of the highest standard and that are designed to meet your specifications. With our experienced team of professionals, you can rest assured that your product will be delivered on time and to the highest quality standards.
