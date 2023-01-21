@@ -1,0 +1,30 @@
+<!--======  ABOUT-US PART START ======-->
+<section class="about-us-area" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-us-img">
+                <img src="{{relative_url}}{{ site.data.settings.abouts_settings.image }}" alt="" class="about-img-1">
+                <img src="{{relative_url}}{{ site.data.settings.abouts_settings.image2 }}" alt="" class="about-img-2">
+            </div>
+            <div class="col-lg-5 offset-lg-7">
+                <div class="about-us-content">
+                    <div class="section-title about-us-title">
+                        <p class="section-para"><span></span>{{ site.data.settings.abouts_settings.title }}</p>
+                        <h1>{{ site.data.settings.abouts_settings.description }}</h1>
+                    </div>
+                    <div class="about-us-text">
+                        <span>{{ site.data.settings.abouts_settings.text }}</span>
+                        <p>{{ site.data.settings.abouts_settings.text2 }}</p>
+                    </div>
+                    <ul class="about-menu">
+						{% for list in site.data.settings.abouts_settings.list %}
+                        <li><a href="{{ list.link }}"><i class="fas fa-check"></i>{{ list.item }}</a></li>    
+						{% endfor %}
+                    </ul>
+                    <a href="{{ site.data.settings.abouts_settings.button.link }}" class="btn about-btn">{{ site.data.settings.abouts_settings.button.name }} <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--======  ABOUT-US PART END ======-->
