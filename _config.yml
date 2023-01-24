@@ -5,14 +5,14 @@ baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://pcbcrew.com' # the base hostname & protocol for your site, e.g. http://example.com
 
 #General Settings
-facebook_url: 'https://facebook.com/pcbcrew'
-twitter_url: 'https://twitter.com/pcbcrew'
-behance_url: 'https://behance.com/pcbcrew'
-instagram_url: 'https://instagram.com/pcbcrew'
+facebook_url: 'https://facebook.com/pcbcrewofficial'
+twitter_url: 'https://twitter.com/pcbcrewofficial'
+behance_url: 'https://behance.com/pcbcrewofficial'
+instagram_url: 'https://instagram.com/pcbcrewofficial'
 logo_url: '/assets/images/logo.png'
 
 copyright_text: '&copy; 2023 PCBCrew. All Rights Reserved'
-phone_number: '+86 13022481053'
+# phone_number: '+86 13022481053'
 address: 'Shenzhen, China'
 office_time: 'Sun - Friday : 10 am - 08 pm'
 

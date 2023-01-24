@@ -2,6 +2,7 @@
 title: "PCB Fabrication & Assembly"
 icon: '<i class="fas fa-layer-group"></i>'
 layout: service
+summary: "PCB Fabrication, PCB Assembly, PCBA prototyping and mass production. We choose the right factory for your design."
 ---
 
 <p>We have partnered with the best PCBA manufacturers in China to ensure that your product is made with the best quality and highest efficiency. Our skilled engineers will handle the entire assembly process, from soldering to testing.</p>

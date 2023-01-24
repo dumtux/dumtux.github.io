@@ -2,6 +2,7 @@
 title: "Schematics & PCB Design"
 icon: '<i class="fas fa-pencil"></i>'
 layout: service
+summary: "We design schematics and PCB from your idea or update your outdated design to meet current part supply availability."
 ---
 
 <p>Inventore veritatis et quasi beata vitae dicta sunt explicabo. Neenms ipsam voluptatem voluptas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus et reiciendis molestiae corporis aliquam quos quidem sit, natus magnam sint quam voluptatibus ipsum, ab laudantium aut velit quibusdam cumque tenetur dolorem nesciunt nostrum eius ipsam quo officia! Suscipit ex, esse. Consequuntur doloribus laborum, molestiae, consectetur hic, labore perspiciatis ipsam ex explicabo temporibus ad fugit doloremque inventore assumenda! Laboriosam quidem asperiores quas accusamus ab. Officiis ipsa eligendi autem nobis, doloremque iste deleniti ut quia, voluptas eos tempore! Ipsum quo, asperiores at ut. Sed blanditiis, officiis tempore quidem voluptate hic possimus doloremque dolor rerum recusandae repellendus est, nisi vero repudiandae necessitatibus vitae sapiente expedita quia nobis. Porro repellendus praesentium iste aut enim consectetur illum veritatis repudiandae dignissimos harum nobis, tenetur ad aperiam, numquam. Commodi tenetur totam et illum, alias possimus corporis ducimus perspiciatis odit, eos placeat, voluptatem distinctio iusto beatae. Facere tempora accusamus aspernatur distinctio in excepturi molestiae necessitatibus non, neque quos.</p>
