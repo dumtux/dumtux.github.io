@@ -26,7 +26,7 @@ projects_settings:
   description: Our Manufacturing & Design Journey
   button:
     name: "get started "
-    link: "#"
+    link: "#contact"
   counter:
     - icon: '<i class="fas fa-rocket"></i>'
       name: "PCBA order completed"
