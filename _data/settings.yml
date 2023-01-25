@@ -7,7 +7,7 @@ blogs_settings:
   description: Latest Articles For PCB & Electronics
   button:
     name: "view all news"
-    link: "/blog/"
+    link: "/blog"
 
 videos_settings:  
   title: Watch Our Latest Videos
