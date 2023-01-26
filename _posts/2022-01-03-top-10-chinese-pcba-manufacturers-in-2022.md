@@ -8,7 +8,7 @@ author: Pottie
 ---
 
 Here are some of the top PCBA (Printed Circuit Board Assembly) manufacturers in China.
-**Note thtat this is the top 10 list in our viewpoint.**
+**Note thtat this is the top 10 list from our viewpoint.**
 The PCBA company that Lenovo thinks it's the best for their computer motherboard manufacturing cannot be the same one that you think it's the best for your prototyping.
 
 
@@ -21,6 +21,6 @@ The PCBA company that Lenovo thinks it's the best for their computer motherboard
 2. [ALLPCB](https://www.allpcb.com/)
 8. [King Sun PCB](https://www.kingsunpcb.com/)
 9. [WellPCB](https://www.wellpcb.com/)
-10. [Linghangda Technology](https://lhd-pcb.com/)
+10. [LHDPCB](https://lhd-pcb.com/)
 
 These are some of the well-known manufacturers in China, but it's important to note that the ranking of manufacturers change over time. And also it's important to thoroughly research and evaluate the manufacturer before making a final decision. It's also recommended to visit the facility and check the certifications, equipment, and quality control systems that they have in place. Additionally, it's worth considering your specific needs and requirements in order to find the manufacturer that will best meet your needs.
