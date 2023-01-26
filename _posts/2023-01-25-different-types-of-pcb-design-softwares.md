@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Everything You Need to Know About the Different Types of PCB Design Software"
-date: 2023-01-27 09:16:35 +0600
-categories: [pcb,pcbdesign]
+date: 2023-01-25 09:16:35 +0600
+categories: [pcbcesign]
 post_image: "/assets/images/blog/pcb-design-softwares.png"
 author: Charles
 ---
