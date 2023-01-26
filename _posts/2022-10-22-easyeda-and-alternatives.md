@@ -6,15 +6,16 @@ categories: [pcbdesign]
 post_image: "/assets/images/blog/pcb-design-software.png"
 author: Pottie
 ---
+
 There are many PCB design software options available, some of the most popular include:
 
-* Altium Designer: A paid software that offers a wide range of features for PCB design, including schematic capture, PCB layout, and FPGA design.
-* Eagle PCB: A PCB design software that offers both free and paid versions, with the free version being limited in terms of the number of layers and board size.
-* KiCad: An open-source software for PCB design, offering features such as schematic capture, PCB layout, and 3D visualization.
-* OrCAD: A paid software that provides a comprehensive set of tools for schematic capture, PCB layout, and FPGA design.
-* DipTrace: A paid software that offers schematic capture, PCB layout, and 3D visualization features.
-* CircuitMaker: A free, web-based PCB design software that is community-driven and open-source with a large library of parts.
-*Proteus: A software package for computer-aided design of electronic circuits, it offers PCB design and simulation capabilities, not as advanced as the other PCB software's mentioned but is often used for educational purposes.
+- Altium Designer: A paid software that offers a wide range of features for PCB design, including schematic capture, PCB layout, and FPGA design.
+- Eagle PCB: A PCB design software that offers both free and paid versions, with the free version being limited in terms of the number of layers and board size.
+- KiCad: An open-source software for PCB design, offering features such as schematic capture, PCB layout, and 3D visualization.
+- OrCAD: A paid software that provides a comprehensive set of tools for schematic capture, PCB layout, and FPGA design.
+- DipTrace: A paid software that offers schematic capture, PCB layout, and 3D visualization features.
+- CircuitMaker: A free, web-based PCB design software that is community-driven and open-source with a large library of parts.
+- Proteus: A software package for computer-aided design of electronic circuits, it offers PCB design and simulation capabilities, not as advanced as the other PCB software's mentioned but is often used for educational purposes.
 
 ## What is EasyEDA
 
