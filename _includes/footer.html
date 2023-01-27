@@ -27,9 +27,11 @@
                             <span class="fas fa-phone"></span>
                         </div>
                         <div class="single-contact-field textarea">
-                            <textarea name="#" id="#" cols="30" rows="10" placeholder="Your Message" name="your_message" required></textarea>
+                            <textarea name="#" id="#" cols="30" rows="10" placeholder="Your Message" name="your_message"
+                                required></textarea>
                             <span class="fas fa-pencil-alt"></span>
-                            <button class="btn contact-btn" type="submit">send message <i class="fa fa-arrow-right"></i></button>
+                            <button class="btn contact-btn" type="submit">send message <i
+                                    class="fa fa-arrow-right"></i></button>
                         </div>
                     </form>
                 </div>
@@ -63,21 +65,25 @@
         <div class="container border-top">
             <div class="row">
                 <div class="col-lg-6">
-                    <p>{{site.copyright_text}}</p>
+                    <p>{{site.copyright_text}} <a href="/terms-and-conditions" style="color: #f26c4f;"> · Terms and
+                            conditions</a></p>
                 </div>
                 <div class="col-lg-6">
                     <ul class="footer-links">
                         {% if site.facebook_url %}
-                         <li><a href="{{site.facebook_url}}" target="__blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="{{site.facebook_url}}" target="__blank"><i class="fab fa-facebook-f"></i></a></li>
                         {% endif %}
                         {% if site.twitter_url %}
-                         <li><a href="{{site.twitter_url}}" target="__blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="{{site.twitter_url}}" target="__blank"><i class="fab fa-twitter"></i></a></li>
                         {% endif %}
                         {% if site.behance_url %}
-                         <li><a href="{{site.behance_url}}" target="__blank"><i class="fab fa-behance"></i></a></li>
+                        <li><a href="{{site.behance_url}}" target="__blank"><i class="fab fa-behance"></i></a></li>
                         {% endif %}
                         {% if site.instagram_url %}
-                         <li><a href="{{site.instagram_url}}" target="__blank"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="{{site.instagram_url}}" target="__blank"><i class="fab fa-instagram"></i></a></li>
+                        {% endif %}
+                        {% if site.linkedin_url %}
+                        <li><a href="{{site.linkedin_url}}" target="__blank"><i class="fab fa-linkedin"></i></a></li>
                         {% endif %}
                     </ul>
                 </div>

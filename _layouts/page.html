@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+{% include page_header.html %}
+
+<!--======  blog-details PART START ======-->
+<style>
+  div.post-content>p,
+  ul>li,
+  ol>li {
+    padding-bottom: 1em;
+    font-size: 1em;
+    color: black;
+  }
+
+  div.post-content>ul>li,
+  ol>li {
+    margin-left: 1em;
+    list-style-type: circle;
+  }
+
+  div.post-content>p {
+    line-height: 2em;
+  }
+
+  div.post-content>h3,
+  h4 {
+    padding-bottom: 1em;
+  }
+</style>
+<section class="blog-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="single-blog-details-box">
+          {% if page.post_image %}
+          <div class="blog-boxed-img">
+            <img src="{{page.post_image}}" class="w-100" alt="{{page.title}}" />
+          </div>
+          {% endif %}
+          <div class="single-blog-details-box-time">
+            {% if page.author %}
+            <span><i class="fas fa-user-alt"></i>{{page.author}}</span>
+            {% endif %} {% if page.date %}
+            <span><i class="far fa-calendar-alt"></i>{{page.date |
+              date_to_long_string}}</span>
+            {% endif %}
+          </div>
+          <h2>{{page.title}}</h2>
+          <div class="post-content">{{page.content | markdownify}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--======  blog-details PART end ======-->
