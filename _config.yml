@@ -5,9 +5,9 @@ baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://pcbcrew.com' # the base hostname & protocol for your site, e.g. http://example.com
 
 #General Settings
-facebook_url: 'https://facebook.com/pcbcrewofficial'
+# facebook_url: 'https://facebook.com/pcbcrewofficial'
 twitter_url: 'https://twitter.com/pcbcrewofficial'
-behance_url: 'https://behance.com/pcbcrewofficial'
+# behance_url: 'https://behance.com/pcbcrewofficial'
 instagram_url: 'https://instagram.com/pcbcrewofficial'
 linkedin_url: 'https://www.linkedin.com/company/pcbcrew'
 logo_url: '/assets/images/logo.png'
