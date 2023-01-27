@@ -11,14 +11,21 @@ The Site is owned and operated by PCB Crew Company (“we” or “us”). We ma
 
 You are solely responsible for any activities that occur on or through the Site. You must use the Site in accordance with these Terms and any applicable laws and regulations. Furthermore, You agree that you will not:
 
-- Post or transmit any content that is unlawful, fraudulent, defamatory, obscene, or otherwise objectionable.
-- Use the Site for any illegal activities.
-- Upload any content that may infringe on the intellectual property rights of any third party.
-- Interfere with or disrupt the Site or any services provided by us.
-- Collect or store personal data about other users of the Site.
-- Distribute viruses or other malicious code.
-- We do not guarantee the accuracy of any information or advice provided on the Site. We are not responsible for any damages caused by your use of the Site, or any content posted on the Site.
-- You agree to indemnify and hold us harmless from any damages, losses, or costs incurred as a result of your use of the Site.
+• Post or transmit any content that is unlawful, fraudulent, defamatory, obscene, or otherwise objectionable.
+
+• Use the Site for any illegal activities.
+
+• Upload any content that may infringe on the intellectual property rights of any third party.
+
+• Interfere with or disrupt the Site or any services provided by us.
+
+• Collect or store personal data about other users of the Site.
+
+• Distribute viruses or other malicious code.
+
+• We do not guarantee the accuracy of any information or advice provided on the Site. We are not responsible for any damages caused by your use of the Site, or any content posted on the Site.
+
+• You agree to indemnify and hold us harmless from any damages, losses, or costs incurred as a result of your use of the Site.
 
 We reserve the right to remove any content that violates these Terms or any applicable laws and regulations. We also reserve the right to terminate your access to the Site at any time, without notice, for any violation of these Terms.
 
