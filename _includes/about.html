@@ -18,7 +18,7 @@
                     </div>
                     <ul class="about-menu">
 						{% for list in site.data.settings.abouts_settings.list %}
-                        <li><a href="{{ list.link }}"><i class="fas fa-check"></i>{{ list.item }}</a></li>    
+                        <li><a href="{{ list.link }}"><i class="fas fa-check"></i>{{ list.item }}</a></li>
 						{% endfor %}
                     </ul>
                     <a href="{{ site.data.settings.abouts_settings.button.link }}" class="btn about-btn">{{ site.data.settings.abouts_settings.button.name }} <i class="fa fa-arrow-right"></i></a>

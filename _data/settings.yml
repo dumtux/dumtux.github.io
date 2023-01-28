@@ -76,7 +76,7 @@ abouts_settings:
   description: Gateway to <br/> the right PCBA factory
   image: "/assets/images/about-us/1.png"
   image2: "/assets/images/about-us/2.png"
-  text: A
+  text: P
   text2: PCBCrew is the premier provider of PCB/PCBA manufacturing and hardware development solutions. We partnered with 60+ best PCBA factories and enclosure manufacturers. We connect the right factory just for you.
   list:
     - item: PCB Fabrication & Assembly
