@@ -13,10 +13,9 @@ layout: default
     font-size: 1em;
     color: black;
   }
-  div.post-content ul li,
-  ol li {
+  div.post-content ul li {
     margin-left: 1em;
-    list-style-type: disc !important;
+    list-style-type: square !important;
   }
   div.post-content p {
     line-height: 2em;
@@ -26,7 +25,7 @@ layout: default
     padding-bottom: 1em;
   }
 
-  .colored-btn {
+  .btn-nav {
     background: #1f2099;
     background: -moz-linear-gradient(-45deg, #1f2099 0%, #487bef 100%);
     background: -webkit-linear-gradient(-45deg, #1f2099 0%, #487bef 100%);
@@ -36,8 +35,8 @@ layout: default
     padding: 20px;
   }
 
-  .colored-btn a {
-    color: white;
+  .btn-nav:hover {
+    color: #1f2099 !important;
   }
 </style>
 <section class="blog-details pt-140 pb-140">
@@ -131,14 +130,14 @@ layout: default
             {% if page.previous.url %}
             <a
               href="{{page.previous.url}}"
-              class="btn btn-lg bg-gradient btn-light"
+              class="btn btn-lg bg-gradient btn-nav"
             >
               <div class="d-flex align-items-center justify-content-center">
                 <span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="32"
-                    height="32"
+                    width="24"
+                    height="24"
                     fill="currentColor"
                     class="bi bi-arrow-left"
                     viewBox="0 0 16 16"
@@ -155,17 +154,14 @@ layout: default
           </div>
           <div class="col">
             {% if page.next.url %}
-            <a
-              class="btn btn-lg bg-gradient btn-light"
-              href="{{page.next.url}}"
-            >
+            <a class="btn btn-lg bg-gradient btn-nav" href="{{page.next.url}}">
               <div class="d-flex align-items-center justify-content-center">
                 <span>{{page.next.title | truncate: 25}}</span>
                 <span
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="24"
+                    height="24"
                     fill="currentColor"
                     class="bi bi-arrow-right"
                     viewBox="0 0 16 16"
