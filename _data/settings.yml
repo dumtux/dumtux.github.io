@@ -1,3 +1,6 @@
+share_settings:  
+  image: "/assets/images/moto.png"
+
 teams_settings:  
   title: our team member
   description: Meet Our Most Creative Engineers That Are Professional
