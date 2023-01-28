@@ -11,11 +11,11 @@ blogs_settings:
 
 videos_settings:  
   title: Watch Our Latest Videos
-  description: Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
-  youtube_link: "https://www.youtube.com/watch?v=iogabydg2y0"
+  description: PCBCrew channel will publish videos about electronics, PCBs, PCB Fabrication, PCBA prototyping, mass production, 3D enclosure design, 3D printing, injection molding, box assembly, and packaging.
+  youtube_link: "https://www.youtube.com/watch?v=KCgvRBMNmJI"
   button:
     name: "Learn More "
-    link: "#"
+    link: "https://www.youtube.com/@pcbcrew"
 
 services_settings:  
   title: About Us
