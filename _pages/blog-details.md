@@ -2,6 +2,7 @@
 layout: post
 post_image: https://images.pexels.com/photos/6755058/pexels-photo-6755058.jpeg?auto=compress&cs=tinysrgb&w=800
 title: About our blog
+permalink: /blog-details/
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus posuere nibh sed mi facilisis blandit. Curabitur condimentum quam leo, imperdiet elementum est scelerisque et. Donec sit amet tempus lorem, nec consectetur mi. Ut accumsan mollis urna. Proin pretium urna in diam rutrum tincidunt. Nullam condimentum diam in sapien congue, vitae feugiat eros efficitur. Proin viverra lorem ac pretium condimentum. Curabitur ultrices lobortis justo et sodales. Fusce dignissim lobortis nibh, sed lobortis mauris faucibus eget. Praesent sed ligula mollis, luctus sem ut, gravida purus. Pellentesque lobortis vehicula felis non rhoncus. Mauris at pellentesque orci, et dictum metus. Nam dictum quam a mauris iaculis, ut semper nisl luctus. Nulla sed turpis quis sapien dignissim viverra.
