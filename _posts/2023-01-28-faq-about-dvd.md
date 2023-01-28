@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Frequently Asked Questions About DVD"
-date: 2023-01-28 00:00:00 +0600
-categories: [pcbcesign]
+date: 2023-01-28 00:00:01 +0600
+categories: [electronics]
 post_image: "/assets/images/blog/dvd.png"
-author: Charles
+author: Pottie
 ---
 
 ## What is DVD?
