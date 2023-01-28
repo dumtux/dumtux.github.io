@@ -7,23 +7,36 @@ layout: default
 <!--======  blog-details PART START ======-->
 <style>
   div.post-content > p,
-  ul > li,
-  ol > li {
+  ul li,
+  ol li {
     padding-bottom: 1em;
     font-size: 1em;
     color: black;
   }
-  div.post-content > ul > li,
-  ol > li {
+  div.post-content ul li {
     margin-left: 1em;
-    list-style-type: disc !important;
+    list-style-type: square !important;
   }
-  div.post-content > p {
+  div.post-content p {
     line-height: 2em;
   }
-  div.post-content > h3,
+  div.post-content h3,
   h4 {
     padding-bottom: 1em;
+  }
+
+  .btn-nav {
+    background: #1f2099;
+    background: -moz-linear-gradient(-45deg, #1f2099 0%, #487bef 100%);
+    background: -webkit-linear-gradient(-45deg, #1f2099 0%, #487bef 100%);
+    background: linear-gradient(135deg, #1f2099 0%, #487bef 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f2099', endColorstr='#487bef',GradientType=1 );
+    color: #fff !important;
+    padding: 20px;
+  }
+
+  .btn-nav:hover {
+    color: #1f2099 !important;
   }
 </style>
 <section class="blog-details pt-140 pb-140">
@@ -80,29 +93,87 @@ layout: default
           <div class="post-content">{{page.content}}</div>
         </div>
 
-        <div class="populer-tags">
-          <!-- {% if page.tags.size > 0%}
-          <ul class="tags">
-            <li class="tag-heading">Popular Tag :</li>
-          </ul>
-          <div class="tags">{{page | tags | capitalize}}</div>
-          {% endif %} -->
-          {% include social-share.html %}
+        <div class="row">
+          <div class="col">
+            <div class="populer-tags">
+              {% if page.tags.size > 0%}
+              <ul class="tags">
+                <li class="tag-heading">Popular Tag :</li>
+              </ul>
+              <div class="tags">{{page | tags | capitalize}}</div>
+              {% endif %}
+            </div>
+          </div>
+          <div class="col">{% include social-share.html %}</div>
         </div>
-        <div class="colered-box-text">
+        <!-- <div class="colored-box-text">
           {% if page.previous.url %}
           <span
             ><a href="{{page.previous.url}}"
               >{{page.previous.title | truncate: 65}}</a
             ></span
           >
+          {% else %}
+          <span></span>
           {% endif %} {% if page.next.url %}
           <span
             ><a href="{{page.next.url}}"
               >{{page.next.title | truncate: 65}}</a
             ></span
           >
+          {% else %}
+          <span></span>
           {% endif %}
+        </div> -->
+        <div class="row mb-3 fs-5">
+          <div class="col">
+            {% if page.previous.url %}
+            <a
+              href="{{page.previous.url}}"
+              class="btn btn-lg bg-gradient btn-nav"
+            >
+              <div class="d-flex align-items-center justify-content-center">
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-arrow-left"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+                    /></svg
+                ></span>
+                <span>{{page.previous.title | truncate: 25 }}</span>
+              </div></a
+            >
+            {% endif %}
+          </div>
+          <div class="col">
+            {% if page.next.url %}
+            <a class="btn btn-lg bg-gradient btn-nav" href="{{page.next.url}}">
+              <div class="d-flex align-items-center justify-content-center">
+                <span>{{page.next.title | truncate: 25}}</span>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi bi-arrow-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                    /></svg
+                ></span></div
+            ></a>
+            {% endif %}
+          </div>
         </div>
         <br />
         <div class="comments-section">
