@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Terms and Conditions
+permalink: /terms-and-conditions/
 ---
 
 The following terms and conditions (the “Terms”) apply to the use of this Printed Circuit Board website ([https://pcbcrew.com](https://pcbcrew.com/)). By using this Site, you agree to these Terms of Service. If you do not agree with any of these Terms, please do not use this Site.

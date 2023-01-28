@@ -1,7 +1,8 @@
-•••
+---
 layout: page
 title: Comment policy
-•••
+permalink: /comment-policy/
+---
 
 We welcome comments and feedback on our website ([https://pcbcrew.com](https://pcbcrew.com/)) about printed circuit board (PCB) topics and all related subjects. However, we ask that you follow a few simple guidelines when commenting:
 
