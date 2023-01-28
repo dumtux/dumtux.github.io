@@ -3,7 +3,7 @@ layout: post
 title: "What is SMT Assembly process"
 date: 2019-03-10 20:37:13 +0600
 tags: wordpress hosting
-categories: [pcba, smt]
+categories: [pcba]
 author: Pottie
 post_image: "/assets/images/blog/smt-assembly.png"
 ---
@@ -22,4 +22,5 @@ The benefits of SMT assembly over through-hole assembly include:
 - Improved electrical performance, as the shorter lead lengths of SMT components result in lower resistance and inductance
 - Reduced manufacturing costs, as SMT assembly is faster and more efficient than through-hole assembly
 - Smaller and lighter finished products
-- However, SMT assembly also has some disadvantages compared to through-hole assembly. The components are more fragile, and if not handled properly, it can lead to damage. Also, some components that are not easily available in SMT form, and also the repair of SMT boards is more difficult than through-hole boards.
+
+However, SMT assembly also has some disadvantages compared to through-hole assembly. The components are more fragile, and if not handled properly, it can lead to damage. Also, some components that are not easily available in SMT form, and also the repair of SMT boards is more difficult than through-hole boards.
