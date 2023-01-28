@@ -6,8 +6,19 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="{% if page.description %} {{page.description}} {% else %} {{site.description}} {% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="alternate" href="http://pcbcrew.com/" hreflang="x-default" />
-    <link rel="canonical" href="https://pcbcrew.com/" />
+
+    <link rel="alternate" href="{{ site.url }}" hreflang="x-default" />
+    <link rel="canonical" href="{{ site.url }}" />
+
+    <meta property="og:title" content="{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}">
+    <meta property="og:description" content="{% if page.description %} {{page.description}} {% else %} {{site.description}} {% endif %}">
+    <meta property="og:image" content="{{relative_url}}{{ site.data.settings.abouts_settings.image }}">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta name="twitter:title" content="{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}">
+    <meta name="twitter:description" content="{% if page.description %} {{page.description}} {% else %} {{site.description}} {% endif %}">
+    <meta name="twitter:url" content="{{relative_url}}{{ site.data.settings.abouts_settings.image }}">
+    <meta name="twitter:card" content="summary">
+
     <!--====== Bootstrap css ======-->
     <link rel="stylesheet" href="{{relative_url}}/assets/css/bootstrap.min.css">
     <!--====== Fontawesome pro css ======-->
