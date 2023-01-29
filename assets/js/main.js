@@ -192,7 +192,7 @@ $('.main-menu nav ul').onePageNav();
     //===== counter up
     $('.count').counterUp({
         delay: 10,
-        time: 2000
+        time: 800
     });
 
 

@@ -26,23 +26,23 @@ services_settings:
 
 projects_settings:
   title: company fact
-  description: Our Manufacturing & Design Journey
+  description: Our Manufacturing Development Journey
   button:
     name: "get started "
     link: "#contact"
   counter:
     - icon: '<i class="fas fa-rocket"></i>'
       name: "PCBA order completed"
-      count: 1120
+      count: 350
     - icon: '<i class="fas fa-life-ring"></i>'
       name: "Schematics & PCB design"
-      count: 258
+      count: 120
     - icon: '<i class="fas fa-trophy"></i>'
       name: "3D enclosure design"
-      count: 122
+      count: 30
     - icon: '<i class="fas fa-universal-access"></i>'
-      name: "Full Product Development"
-      count: 48
+      name: "Full product development"
+      count: 20
 
 portfolios_settings:
   title: About Us
