@@ -39,7 +39,7 @@
     .service-content h4 {
         font-size: 20px;
     }
-    .section-title h1 {
+    .section-title h1, .section-title h2 {
         font-size: 32px;
     }
     .service-box-content h3 {
@@ -52,7 +52,7 @@
     .portfolio-overlay-content h2 {
         font-size: 22px;
     }
-    .cta-title h1 {
+    .cta-title h1, .cta-title h2 {
         font-size: 50px;
     }
     .video-content {
@@ -101,7 +101,7 @@
         padding-top: 300px;
         padding-bottom: 180px;
     }
-    .breadcrumb-content h1 {
+    .breadcrumb-content h1, .breadcrumb-content h2 {
         font-size: 70px;
     }
     .latest-blogs .single-blog-item-content h4 {
@@ -141,7 +141,7 @@
     .colored-box-btn.btn {
         padding: 20px 30px;
     }
-    .absolute-colored-box-contetn h1 {
+    .absolute-colored-box-contetn h1, .absolute-colored-box-contetn h2 {
         font-size: 35px;
     }
     .section-title.contact-title span {
@@ -226,7 +226,7 @@
     .pt-140 {
         padding-top: 100px;
     }
-    .cta-title h1 {
+    .cta-title h1,.cta-title h2 {
         font-size: 60px;
     }
     .video-content {
@@ -287,7 +287,7 @@
     .single-blog-item {
         margin-bottom: 30px;
     }
-    .breadcrumb-content h1 {
+    .breadcrumb-content h1, .breadcrumb-content h2 {
         font-size: 60px;
     }
     .comments-body {
@@ -410,7 +410,7 @@
         line-height: 50px;
         font-size: 15px;
     }
-    .section-title h1 {
+    .section-title h1, .section-title h2 {
         font-size: 25px;
     }
     .about-us-text p {
@@ -429,13 +429,13 @@
     .section-title.service-title span {
         left: 8%;
     }
-    .cta-title h1 {
+    .cta-title h1, .cta-title h2 {
         font-size: 40px;
     }
     .team-carousel-active .slick-dots {
         left: 35%;
     }
-    .video-content h1 {
+    .video-content h1, .video-content h2 {
         font-size: 40px;
     }
     .autohor-details {
@@ -467,7 +467,7 @@
         padding-top: 140px;
         padding-bottom: 110px;
     }
-    .breadcrumb-content h1 {
+    .breadcrumb-content h1, .breadcrumb-content h2 {
         font-size: 41px;
         margin-bottom: 20px;
     }
@@ -515,13 +515,12 @@
     .blog-details-search i {
         right: 20px;
     }
-    .absolute-colored-box-contetn h1 {
+    .absolute-colored-box-contetn h1, .absolute-colored-box-contetn h2 {
         font-size: 30px;
     }
     .absolute-colored-box-contetn p {
         padding: 0 40px;
     }
-    
     .bottom-header-area.sticky  .mobile-menu-wrap {
         position: absolute;
         right: 42px;

@@ -837,7 +837,7 @@ header {
   content: '';
   background: #f26c4f;
 }
-.section-title h1 {
+.section-title h1, .section-title h2 {
   font-size: 36px;
   margin-bottom: 30px;
   font-weight: 600;
@@ -923,7 +923,7 @@ header {
   top: -10px;
   opacity: 0.1;
 }
-.section-title.service-title h1 {
+.section-title.service-title h1, .section-title.service-title h2 {
   color: #fff;
 }
 .single-service-box {
@@ -1104,7 +1104,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.cta-title h1 {
+.cta-title h1, .cta-title h2 {
   font-size: 65px;
   font-weight: 700;
   color: #fff;
@@ -1290,7 +1290,7 @@ header {
   opacity: 0.2;
   top: 83px;
 }
-.video-content h1 {
+.video-content h1, .video-content h2 {
   font-size: 65px;
   font-weight: 700;
   color: #fff;
@@ -1330,7 +1330,7 @@ header {
 .btn.counter-btn {
   margin-top: 30px;
 }
-.section-title.project-title h1 {
+.section-title.project-title h1, .section-title.project-title h2 {
   padding-right: 100px;
 }
 .btn.counter-btn:hover {
@@ -1346,7 +1346,7 @@ header {
   padding-left: 40px;
   border-left: 7px solid #f26c4f;
 }
-.counter-text h1 {
+.counter-text h1, .counter-text h4 {
   font-size: 50px;
   font-weight: 700;
 }
@@ -1682,7 +1682,7 @@ header {
   padding-left: 0;
   color: #fff;
 }
-.section-title.contact-title h1 {
+.section-title.contact-title h1, .section-title.contact-title h2 {
   color: #fff;
 }
 .section-title.contact-title {
@@ -2403,7 +2403,7 @@ h4.blog-details-heading::after {
   opacity: 0.8;
 }
 
-.absolute-colored-box-contetn h1 {
+.absolute-colored-box-contetn h1, .absolute-colored-box-contetn h2 {
   font-size: 45px;
   font-weight: 700;
   color: #fff;
@@ -2458,7 +2458,7 @@ h4.blog-details-heading::after {
   padding-bottom: 220px;
   text-align: center;
 }
-.breadcrumb-content h1 {
+.breadcrumb-content h1, .breadcrumb-content h2 {
   font-size: 65px;
   font-weight: 700;
   color: #fff;
@@ -2477,7 +2477,7 @@ h4.blog-details-heading::after {
   border-radius: 50%;
   position: relative;
 }
-.section-title.contact-title h1 {
+.section-title.contact-title h1, .section-title.contact-title h2 {
   margin-bottom: 0;
 }
 #results-container {
