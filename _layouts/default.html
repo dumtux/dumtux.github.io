@@ -4,7 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="{% if page.description %} {{page.description}} {% else %} {{site.description}} {% endif %}">
+    <meta name="description"
+        content="{% if page.description %} {{page.description}} {% else %} {{site.description}} {% endif %}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="alternate" href="http://pcbcrew.com/" hreflang="x-default" />
     <!--====== Bootstrap css ======-->
@@ -26,9 +27,23 @@
     <link rel="stylesheet" href="{{relative_url}}/assets/css/responsive.css">
     <title>{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}</title>
     {% if site.environment == 'production' %}
-      {% include analytics.html %}
+    {% include analytics.html %}
     {% endif %}
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "PCBCrew",
+          "url": "https://pcbcrew.com",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        }
+    </script>
 </head>
+
 <body>
     <!--======  PRELOADER PART START ======-->
     <div id="loading">
@@ -45,13 +60,13 @@
 
     <!--======  OFFCANVAS-SEARCH PART START ======-->
     <div class="search-form">
-    <div class="offcanvas-search-area">
-        <form action="#">
-            <input type="text" id="search-input" placeholder="Search.." required>
-            <span class="close-bar"><i class="fas fa-times"></i></span>
-        </form>
-         <ul id="results-container"></ul>
-     </div>
+        <div class="offcanvas-search-area">
+            <form action="#">
+                <input type="text" id="search-input" placeholder="Search.." required>
+                <span class="close-bar"><i class="fas fa-times"></i></span>
+            </form>
+            <ul id="results-container"></ul>
+        </div>
     </div>
 
     <!--======  OFFCANVAS-SEARCH PART END ======-->
@@ -86,4 +101,5 @@
     <script src="{{relative_url}}/assets/js/main.js"></script>
     <script src="//code.tidio.co/iebetk7zmuakpfce8covgkdytulsukft.js" async></script>
 </body>
+
 </html>
