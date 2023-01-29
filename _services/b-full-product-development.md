@@ -2,7 +2,7 @@
 title: "Full Product Development"
 icon: '<i class="fas fa-lightbulb-on"></i>'
 layout: service
-summary: "Architecture design, schematics and PCB design, PCBA, 3D design, 3D printing, engraving, box assembly, and packaging"
+summary: "Designing hardware architecture, schematics, PCB, 3D enclosure. <br/> PCB assembly, 3D printing, laser engraving, box assembly, and packaging."
 ---
 
 <h4 class="py-2">Service Full Product Development</h4>

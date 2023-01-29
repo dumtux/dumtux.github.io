@@ -1,18 +1,18 @@
-share_settings:  
+share_settings:
   image: "/assets/images/moto.png"
 
-teams_settings:  
+teams_settings:
   title: our team member
   description: Meet Our Most Creative Engineers That Are Professional
 
-blogs_settings:  
+blogs_settings:
   title: News & blog
   description: Latest Articles For PCB & Electronics
   button:
     name: "view all news"
     link: "/blog"
 
-videos_settings:  
+videos_settings:
   title: Watch Our Latest Videos
   description: PCBCrew channel will publish videos about electronics, PCBs, PCB Fabrication, PCBA prototyping, mass production, 3D enclosure design, 3D printing, injection molding, box assembly, and packaging.
   youtube_link: "https://www.youtube.com/watch?v=KCgvRBMNmJI"
@@ -20,11 +20,11 @@ videos_settings:
     name: "Learn More "
     link: "https://www.youtube.com/@pcbcrew"
 
-services_settings:  
+services_settings:
   title: Services
-  description: Get Better Chinese PCBA Manufacturing & Design
+  description: Get Better Chinese PCBA Manufacturers & Designers
 
-projects_settings:  
+projects_settings:
   title: company fact
   description: Our Manufacturing & Design Journey
   button:
@@ -44,7 +44,7 @@ projects_settings:
       name: "Full Product Development"
       count: 48
 
-portfolios_settings:  
+portfolios_settings:
   title: About Us
   description: Get Better Chinese PCBA Manufacturing & Design
   button:
@@ -54,15 +54,15 @@ portfolios_settings:
     name: "Let’s Talk"
     link: "#"
 
-cta_settings:  
+cta_settings:
   title: We Transfer Your Idea Into Product
   description: You may not have the schematic and PCB design. We develop the hardware to make your own inventions born. Architecture, schematics, 3D enclosure for injection molding, and more!
   image: /assets/images/cta-text.png
   button:
     name: "meet with us"
     link: "#"
-  
-textimonials_settings:  
+
+textimonials_settings:
   image: /assets/images/testimonial/1.png
   textimonial:
     - name: "Michele L. Racinea "
@@ -74,7 +74,7 @@ textimonials_settings:
       text: "Avoids pleasur itself because pleas because those who do not know how to pursue plesure rationally encou eque that are extrem painful again is there anyone who loves pursues or desires to obtain pain of itself."
       image: "/assets/images/testimonial/author.png"
 
-abouts_settings:  
+abouts_settings:
   title: About Us
   description: Gateway to <br/> the right PCBA factory
   image: "/assets/images/about-us/1.png"
@@ -96,11 +96,11 @@ abouts_settings:
     name: "Contact Us"
     link: "#contact"
 
-pricings_settings:  
+pricings_settings:
   title: our pricing
   description: Popular Pricing Plan For Creative Project
   button:
-    name: make plan 
+    name: make plan
     link: "#"
   list:
     - name: '01 <span>basic</span>'
