@@ -1000,6 +1000,7 @@ header {
 .service-box-content h3 {
   color: #fff;
   font-weight: 500;
+  margin-top: 0;
   margin-bottom: 10px;
 }
 .service-box-content p {
