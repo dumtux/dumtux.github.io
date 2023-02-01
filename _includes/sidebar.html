@@ -1,4 +1,4 @@
-<div class="recent-news-area">
+<div class="recent-news-area mb-5">
   <h4 class="blog-details-heading">Recent News</h4>
   {% for post in site.posts limit: 5 %}
   <div class="single-news-box">
@@ -18,7 +18,7 @@
   </div>
   {% endfor %}
 </div>
-<div class="blog-category-area">
+<!-- <div class="blog-category-area">
   <h4 class="blog-details-heading">Category</h4>
   <ul class="general-lists">
     {% assign categories_list = site.categories %} {% if
@@ -41,7 +41,7 @@
     </li>
     {% endfor %} {% endif %} {% assign categories_list = nil %}
   </ul>
-</div>
+</div> -->
 <!-- <div class="blog-tabs">
 	<h4 class="blog-details-heading">Populer Tag</h4>
 	<ul>
