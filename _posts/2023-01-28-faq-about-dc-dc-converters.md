@@ -7,7 +7,7 @@ post_image: "/assets/images/blog/dc-dc-modules.png"
 author: Pottie
 ---
 
-## what is DC-DC converter?
+## What is a DC-DC converter?
 
 A DC-DC converter is a device that converts direct current (DC) from one voltage level to another. It is used to adjust the voltage level of a power source to match the voltage level required by a load. DC-DC converters are commonly used in a wide range of applications, including in automobiles, portable electronics, and renewable energy systems. They can also be used to isolate or galvanically separate different sections of an electrical system.
 
