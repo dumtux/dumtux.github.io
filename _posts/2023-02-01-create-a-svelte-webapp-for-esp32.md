@@ -98,7 +98,7 @@ npm run build
 
 After the build process is complete, a build folder will be generated. To make it easier to manage the files, rename the build folder to "web". This renamed folder will later be copied to another directory for use on the ESP32 project.
 
-# Create esp32 wifi station project
+## Create ESP32 WiFi station project
 
 To make an esp-idf project, we will use the wifi station example from esp-idf directory esp-idf/example/wifi/get_started/sofAP. Copy the folder to your project directory and navigate to it in your terminal or esp-idf WSL (if using Windows). Then, run the command:
 
