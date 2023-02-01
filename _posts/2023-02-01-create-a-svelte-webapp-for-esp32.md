@@ -29,8 +29,8 @@ select skeleton svelete project, During the installation, you will be prompted w
 Next, navigate into the newly created project directory and install the required dependencies by running:
 
 ```sh
-~ cd web-app
-~ npm install
+cd web-app
+npm install
 ```
 
 Now that the project has been created, change the content of `src/routes/+page.svelte` to the following:
