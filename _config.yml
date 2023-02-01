@@ -117,3 +117,9 @@ feed:
   collections:
     posts:
       path: "/index.xml"
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge

@@ -2,7 +2,7 @@
 layout: post
 title: "Creating a Svelte Web Application For ESP32"
 date: 2023-02-01 00:00:01 +0600
-categories: [esp32,svelte]
+categories: [esp32, svelte]
 post_image: "/assets/images/blog/esp32-svelte.png"
 author: Mohammad
 ---
@@ -37,25 +37,25 @@ Now that the project has been created, change the content of `src/routes/+page.s
 
 ```html
 <script>
-    function buttonClick() {
-        alert("Button clicked");
-    }
+  function buttonClick() {
+    alert("Button clicked");
+  }
 </script>
 
 <h1>Hello World</h1>
-<button class="button" on:click={buttonClick}>Click!</button>
+<button class="button" on:click="{buttonClick}">Click!</button>
 
 <style>
-.button {
-  background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
+  .button {
+    background-color: #4caf50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 </style>
 ```
 
@@ -69,7 +69,7 @@ This will open the webpage in your browser, where you will be able to see the "H
 
 ![Svlete Skeleton Project](/assets/images/blog/esp32-svelte/sevlte-sample-page.png "svelte skeleton project")
 
-------
+---
 
 To upload the webpage to the ESP32 and serve it as a web server, we need to build the Svelte project first. To do this, we need to install a package by running:
 
@@ -84,7 +84,7 @@ Then, modify the svelte.config.js file by changing import adapter from `@sveltej
 + 1     import adapter from '@sveltejs/adapter-static';
 ```
 
-Additionally, create a file `src/routes/+layout.js` and add the following line to it: 
+Additionally, create a file `src/routes/+layout.js` and add the following line to it:
 
 ```js
 export const prerender = true;
