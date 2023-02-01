@@ -1,0 +1,138 @@
+share_settings:
+  image: "/assets/images/moto.png"
+
+teams_settings:
+  title: our team member
+  description: Meet Our Most Creative Engineers That Are Professional
+
+blogs_settings:
+  title: News & blog
+  description: Latest Articles For PCB & Electronics
+  button:
+    name: "view all news"
+    link: "/blog"
+
+videos_settings:
+  title: Watch Our Latest Videos
+  description: PCBCrew channel will publish videos about electronics, PCBs, PCB Fabrication, PCBA prototyping, mass production, 3D enclosure design, 3D printing, injection molding, box assembly, and packaging.
+  youtube_link: "https://www.youtube.com/watch?v=KCgvRBMNmJI"
+  button:
+    name: "Learn More "
+    link: "https://www.youtube.com/@pcbcrew"
+
+services_settings:
+  title: Services
+  description: Get Better Chinese PCBA Manufacturers & Designers
+
+projects_settings:
+  title: company fact
+  description: Our Manufacturing Development Journey
+  button:
+    name: "get started "
+    link: "#contact"
+  counter:
+    - icon: '<i class="fas fa-rocket"></i>'
+      name: "PCBA order completed"
+      count: 350
+    - icon: '<i class="fas fa-life-ring"></i>'
+      name: "Schematics & PCB design"
+      count: 120
+    - icon: '<i class="fas fa-trophy"></i>'
+      name: "3D enclosure design"
+      count: 30
+    - icon: '<i class="fas fa-universal-access"></i>'
+      name: "Full product development"
+      count: 20
+
+portfolios_settings:
+  title: About Us
+  description: Get Better Chinese PCBA Manufacturing & Design
+  button:
+    name: "View more"
+    link: "#"
+  button2:
+    name: "Let’s Talk"
+    link: "#"
+
+cta_settings:
+  title: We Transfer Your Idea Into Product
+  description: You may not have the schematic and PCB design. We develop the hardware to make your own inventions born. Architecture, schematics, 3D enclosure for injection molding, and more!
+  image: /assets/images/cta-text.png
+  button:
+    name: "meet with us"
+    link: "#"
+
+textimonials_settings:
+  image: /assets/images/testimonial/1.png
+  textimonial:
+    - name: "Michele L. Racinea "
+      position: "Web Designer"
+      text: "Avoids pleasur itself because pleas because those who do not know how to pursue plesure rationally encou eque that are extrem painful again is there anyone who loves pursues or desires to obtain pain of itself."
+      image: "/assets/images/testimonial/author.png"
+    - name: "Michele L. Racinea "
+      position: "Web Designer"
+      text: "Avoids pleasur itself because pleas because those who do not know how to pursue plesure rationally encou eque that are extrem painful again is there anyone who loves pursues or desires to obtain pain of itself."
+      image: "/assets/images/testimonial/author.png"
+
+abouts_settings:
+  title: About Us
+  description: Gateway to the best Chinese PCB/PCBA manufacturers
+  image: "/assets/images/about-us/1.png"
+  image2: "/assets/images/about-us/2.png"
+  text: P
+  text2: PCBCrew is the premier provider of PCB/PCBA manufacturing and hardware development solutions. We partnered with 60+ best PCBA factories and enclosure manufacturers. We connect the right factory just for you.
+  list:
+    - item: PCB Fabrication & Assembly
+      link: "#"
+    - item: Schematics & PCB Design
+      link: "#"
+    - item: 3D Enclosure Design
+      link: "#"
+    - item: Firmware Development
+      link: "#"
+    - item: Box Assembly
+      link: "#"
+  button:
+    name: "Contact Us"
+    link: "#contact"
+
+pricings_settings:
+  title: our pricing
+  description: Popular Pricing Plan For Creative Project
+  button:
+    name: make plan
+    link: "#"
+  list:
+    - name: '01 <span>basic</span>'
+      image: "/assets/images/price-icon.png"
+      text: '<span>$45.99/month</span>'
+      listitem:
+        - item: Web Design (UX/UI)
+        - item: Software Development
+        - item: Fashion Design (Arts)
+        - item: Web Development (php)
+      lowerlistitem:
+        - item: Game Design & DV
+        - item: Computer Hardware
+    - name: '02 <span>smart</span>'
+      image: "/assets/images/price-icon.png"
+      text: '<span>$65.99/month</span>'
+      listitem:
+        - item: Web Design (UX/UI)
+        - item: Software Development
+        - item: Fashion Design (Arts)
+        - item: Web Development (php)
+      lowerlistitem:
+        - item: Game Design & DV
+        - item: Computer Hardware
+    - name: '03 <span>Premium</span>'
+      image: "/assets/images/price-icon.png"
+      text: '<span>$103.99/month</span>'
+      listitem:
+        - item: Web Design (UX/UI)
+        - item: Software Development
+        - item: Fashion Design (Arts)
+        - item: Web Development (php)
+      lowerlistitem:
+        - item: Game Design & DV
+        - item: Computer Hardware
