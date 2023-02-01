@@ -2,7 +2,7 @@
 layout: post
 title: "How to pick the best PCBA manufacturer for you"
 date: 2022-11-01 09:16:35 +0600
-categories: [pcba]
+categories: [PCB Assembly]
 post_image: "/assets/images/blog/pcba-factory.png"
 author: Pottie
 ---

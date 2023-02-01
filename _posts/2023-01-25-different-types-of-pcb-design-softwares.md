@@ -2,7 +2,7 @@
 layout: post
 title: "Everything You Need to Know About the Different Types of PCB Design Software"
 date: 2023-01-25 09:16:35 +0600
-categories: [pcbdesign]
+categories: [PCB Design]
 post_image: "/assets/images/blog/pcb-design-softwares.png"
 author: Charles
 ---
@@ -12,11 +12,11 @@ Are you looking for a comprehensive guide to the different types of PCB design s
 ## [Autodesk EAGLE](https://www.autodesk.com/products/eagle/overview)
 
 [Autodesk EAGLE](https://www.autodesk.com/products/eagle/overview), formerly known as “Easily Applicable Graphical Layout Editor”, is a popular PCB design software developed by Autodesk. It is one of the most widely used PCB design packages in the world and is used by hobbyists, students, and professionals alike.
-Autodesk EAGLE is a comprehensive suite of design tools that allows users to easily design high-quality printed circuit boards (PCBs) quickly and efficiently. 
+Autodesk EAGLE is a comprehensive suite of design tools that allows users to easily design high-quality printed circuit boards (PCBs) quickly and efficiently.
 
 The user interface is designed to be intuitive, with the ability to switch between tools and layouts with ease. Autodesk EAGLE also offers many features such as Schematic Capture, Layout Design, Component Placement, and Signal Integrity analysis, which makes it an excellent choice for designing complicated PCBs.
 
-In addition to the standard features offered by Autodesk EAGLE, there are also a variety of third-party plugins available which allow you to extend the software’s capabilities even further. 
+In addition to the standard features offered by Autodesk EAGLE, there are also a variety of third-party plugins available which allow you to extend the software’s capabilities even further.
 
 These plugins include BoardStacks, which provides an automated way of organizing components on your PCB design, and CircuitBuilder, which provides detailed analysis of your PCB layout.
 

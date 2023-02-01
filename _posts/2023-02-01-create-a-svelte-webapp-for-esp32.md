@@ -2,7 +2,7 @@
 layout: post
 title: "Creating a Svelte Web Application For ESP32"
 date: 2023-02-01 00:00:01 +0600
-categories: [esp32, svelte]
+categories: [ESP32, Svelte]
 post_image: "/assets/images/blog/esp32-svelte.png"
 author: Mohammad
 ---

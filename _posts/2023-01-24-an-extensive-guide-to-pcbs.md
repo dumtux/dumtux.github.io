@@ -2,7 +2,7 @@
 layout: post
 title: "An Extensive Guide to PCBs: All You Need To Know About Printed Circuit Boards"
 date: 2023-01-24 09:16:35 +0600
-categories: [pcba]
+categories: [PCB Assembly]
 post_image: "/assets/images/blog/pcb.jpg"
 author: Charles
 ---

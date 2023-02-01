@@ -2,7 +2,7 @@
 layout: post
 title: "EasyEDA and some other PCB design softwares"
 date: 2022-10-22 09:16:35 +0600
-categories: [pcbdesign]
+categories: [PCB Design]
 post_image: "/assets/images/blog/pcb-design-software.png"
 author: Pottie
 ---
