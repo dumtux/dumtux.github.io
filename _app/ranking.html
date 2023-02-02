@@ -1,0 +1,53 @@
+---
+layout: app
+permalink: "/app/ranking/"
+---
+
+<div class="table-container">
+  <table class="sortable table">
+    <thead>
+      <tr>
+        <th><span>Company</span></th>
+        <th>Global web rank</th>
+        <th>Domain authority</th>
+        <th>Backlink count</th>
+        <th>Linking websites</th>
+        <th><i class="fab fa-youtube"></i></th>
+        <th><i class="fab fa-twitter"></i></th>
+        <th><i class="fab fa-instagram"></i></th>
+        <th><i class="fab fa-linkedin"></i></th>
+        <th><i class="fab fa-facebook"></i></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in site.data.ranking %}
+      <tr>
+        <td><a href="{{row['website']}}">{{row.company}}</a></td>
+        <td>{{row['global_web_rank']}}</td>
+        <td>{{row['domain_authority']}}</td>
+        <td>{{row['back_link_count']}}</td>
+        <td>{{row['linking_website']}}</td>
+        <td>{{row['youtube']}}</td>
+        <td>{{row['twitter']}}</td>
+        <td>{{row['instagram']}}</td>
+        <td>{{row['linkedin']}}</td>
+        <td>{{row['facebook']}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<link
+  href="https://cdn.jsdelivr.net/gh/tofsjonas/sortable/sortable.min.css"
+  rel="stylesheet"
+/>
+<style>
+  .table-container {
+    width: 100% !important;
+    overflow: scroll;
+  }
+  table {
+    font-size: 1em !important;
+  }
+</style>
+<script src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable/sortable.min.js"></script>
