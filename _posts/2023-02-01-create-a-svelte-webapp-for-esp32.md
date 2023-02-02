@@ -4,7 +4,7 @@ title: "Creating a Svelte Web Application For ESP32"
 date: 2023-02-01 00:00:01 +0600
 categories: [ESP32, Svelte]
 post_image: "/assets/images/blog/esp32-svelte.png"
-author: Mohammad
+author: thecapn32
 ---
 
 ## Introduction
@@ -69,8 +69,6 @@ This will open the webpage in your browser, where you will be able to see the "H
 
 ![Svlete Skeleton Project](/assets/images/blog/esp32-svelte/sevlte-sample-page.png "svelte skeleton project")
 
----
-
 To upload the webpage to the ESP32 and serve it as a web server, we need to build the Svelte project first. To do this, we need to install a package by running:
 
 ```sh
@@ -118,14 +116,14 @@ and also Under Component Config, SPIFFS Configuration tab change SPIFFS File Sys
 
 ![max-name](/assets/images/blog/esp32-svelte/spiffs-max-name-config.png "max-name")
 
-at last goto Example Configuration and set SSID and Password of your esp32 wifi station
+At last goto Example Configuration and set SSID and Password of your esp32 wifi station
 
 ![Svlete Skeleton Project](/assets/images/blog/esp32-svelte/ssid-pass-config.png "svelte skeleton project")
 
 The project configuration is complete. The next step is to add files and make necessary modifications. Start by creating the "softAP/partitions.csv" file to partition the flash storage.
 The content of softAP/partitions.csv should be as follows:
 
-```
+```csv
 # Name,   Type, SubType, Offset,  Size, Flags
 # Note: if you have increased the bootloader size, make sure to update the offsets to avoid overlap
 nvs,      data, nvs,     ,        0x6000,
@@ -136,11 +134,11 @@ spiffs,   data, spiffs,  ,        1M,
 
 After this step, copy the "web" directory from the `web-app` Svelte project to the ESP-IDF `softAP` project directory. Then, add the following line to softAP/main/CMakeLists.txt:
 
-```
+```cmake
 spiffs_create_partition_image(spiffs ../web FLASH_IN_PROJECT)
 ```
 
-now we need to modify the source code in file `softAP/src/main/softap_example_main.c`
+Now we need to modify the source code in file `softAP/src/main/softap_example_main.c`
 
 ```c
 #include "esp_http_server.h"
@@ -153,7 +151,7 @@ and defining a global variable:
 static httpd_handle_t server = NULL;
 ```
 
-add the following code at the end of the main function to configure and start the HTTP server:
+Add the following code at the end of the main function to configure and start the HTTP server:
 
 ```c
 httpd_config_t config = HTTPD_DEFAULT_CONFIG();
