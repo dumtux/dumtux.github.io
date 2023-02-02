@@ -216,5 +216,5 @@ $(function () {
   });
 
   // adding style to markdown-generated tables inside blog post
-  $('div.blog-post > table').addClass('table table-bordered');
+  $("div.blog-post > table").addClass("table table-bordered");
 });

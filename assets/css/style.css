@@ -1987,7 +1987,7 @@ header {
   color: #f26c4f;
 }
 .single-blog-details-box ul {
-  float: right;
+  /* float: right; */
   margin-top: 0px;
 }
 
@@ -2003,7 +2003,7 @@ header {
   font-size: 14px;
 }
 .single-blog-details-box ul li {
-  display: inline-block;
+  display: list-item;
 }
 .single-blog-details-box ul li {
   margin-left: 12px;
@@ -2017,6 +2017,16 @@ header {
 }
 .single-blog-details-box h2 {
   font-size: 28px;
+  margin: 30px 0;
+  font-weight: 600;
+}
+.single-blog-details-box h3 {
+  font-size: 24px;
+  margin: 30px 0;
+  font-weight: 600;
+}
+.single-blog-details-box h4 {
+  font-size: 20px;
   margin: 30px 0;
   font-weight: 600;
 }
