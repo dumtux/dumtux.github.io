@@ -45,6 +45,9 @@ collections:
   pages:
     output: true
     permalink: /
+  app:
+    output: true
+    permalink: /app
 
 ########################################################
 # Site configuration for the Jekyll 3 Pagination Gem
