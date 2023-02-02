@@ -214,4 +214,7 @@ $(function () {
     resultsContainer: document.getElementById("results-container"),
     json: "/search.json",
   });
+
+  // adding style to markdown-generated tables inside blog post
+  $('div.blog-post > table').addClass('table table-bordered');
 });
