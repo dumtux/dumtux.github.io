@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{% include mini_header.html %}
+
+<!--======  blog-details PART START ======-->
+<style>
+  div.post-content > * {
+    font-size: 1.2em;
+    padding-bottom: 2em;
+    color: black;
+  }
+
+  div.post-content > p {
+    line-height: 2em;
+  }
+
+  div.post-content > ul {
+    list-style-type: circle;
+    list-style-position: inside;
+  }
+
+  div.post-content > ul > li {
+    margin-bottom: 0.5em;
+  }
+</style>
+<section class="blog-details">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="single-blog-details-box">
+          {% if page.post_image %}
+          <div class="blog-boxed-img">
+            <img src="{{page.post_image}}" class="w-100" alt="{{page.title}}" />
+          </div>
+          {% endif %}
+          <h2>{{page.title}}</h2>
+          <div class="post-content">{{page.content | markdownify}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--======  blog-details PART end ======-->
