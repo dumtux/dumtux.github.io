@@ -1,0 +1,6 @@
+- name: Gerber Viewer
+  description: A PCB viewer
+  url: /apps/gerber-viewer/
+- name: PCB Manufacturer Rankings
+  description: Realtime updated Chinese PCB manufacturer rankings
+  url: /apps/ranking

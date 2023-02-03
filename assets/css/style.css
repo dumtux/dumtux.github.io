@@ -125,8 +125,9 @@ p {
   margin: 0px;
 }
 
-.ff-serif{
-  font-family: 'Source Serif Pro', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.ff-serif {
+  font-family: 'Source Serif Pro', Cambria, Cochin, Georgia, Times,
+    'Times New Roman', serif;
 }
 
 .bg_cover {
@@ -225,32 +226,35 @@ p {
   animation: object_four 1s infinite;
 }
 
-div.blog-post > p{
+div.blog-post > p {
   font-size: 20px;
   line-height: 32px;
   margin-bottom: 20px;
 }
-div.blog-post > ul, ol{
+div.blog-post > ul,
+ol {
   margin-bottom: 20px;
 }
-div.blog-post > ul > li{
-  font-size: 20px;
-  line-height: 32px;
-  list-style-type: circle;
-  margin-bottom: 20px;
-}
-div.blog-post > ol > li{
+div.blog-post > ul > li {
   font-size: 20px;
   line-height: 32px;
   list-style-type: circle;
   margin-bottom: 20px;
 }
-div.blog-post > h2, h3{
+div.blog-post > ol > li {
+  font-size: 20px;
+  line-height: 32px;
+  list-style-type: circle;
+  margin-bottom: 20px;
+}
+div.blog-post > h2,
+h3 {
   margin-bottom: 40px;
   margin-top: 40px;
   font-weight: bold;
   color: #222222;
-  font-family: 'Source Serif Pro', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Source Serif Pro', Cambria, Cochin, Georgia, Times,
+    'Times New Roman', serif;
 }
 
 @-webkit-keyframes loading-center-absolute {
@@ -870,7 +874,8 @@ header {
   content: '';
   background: #f26c4f;
 }
-.section-title h1, .section-title h2 {
+.section-title h1,
+.section-title h2 {
   font-size: 36px;
   margin-bottom: 30px;
   font-weight: 600;
@@ -956,7 +961,8 @@ header {
   top: -10px;
   opacity: 0.1;
 }
-.section-title.service-title h1, .section-title.service-title h2 {
+.section-title.service-title h1,
+.section-title.service-title h2 {
   color: #fff;
 }
 .single-service-box {
@@ -1138,7 +1144,8 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.cta-title h1, .cta-title h2 {
+.cta-title h1,
+.cta-title h2 {
   font-size: 65px;
   font-weight: 700;
   color: #fff;
@@ -1324,7 +1331,8 @@ header {
   opacity: 0.2;
   top: 83px;
 }
-.video-content h1, .video-content h2 {
+.video-content h1,
+.video-content h2 {
   font-size: 65px;
   font-weight: 700;
   color: #fff;
@@ -1364,7 +1372,8 @@ header {
 .btn.counter-btn {
   margin-top: 30px;
 }
-.section-title.project-title h1, .section-title.project-title h2 {
+.section-title.project-title h1,
+.section-title.project-title h2 {
   padding-right: 100px;
 }
 .btn.counter-btn:hover {
@@ -1380,7 +1389,8 @@ header {
   padding-left: 40px;
   border-left: 7px solid #f26c4f;
 }
-.counter-text h1, .counter-text h4 {
+.counter-text h1,
+.counter-text h4 {
   font-size: 50px;
   font-weight: 700;
 }
@@ -1716,7 +1726,8 @@ header {
   padding-left: 0;
   color: #fff;
 }
-.section-title.contact-title h1, .section-title.contact-title h2 {
+.section-title.contact-title h1,
+.section-title.contact-title h2 {
   color: #fff;
 }
 .section-title.contact-title {
@@ -2454,7 +2465,8 @@ h4.blog-details-heading::after {
   opacity: 0.8;
 }
 
-.absolute-colored-box-contetn h1, .absolute-colored-box-contetn h2 {
+.absolute-colored-box-contetn h1,
+.absolute-colored-box-contetn h2 {
   font-size: 45px;
   font-weight: 700;
   color: #fff;
@@ -2505,11 +2517,12 @@ h4.blog-details-heading::after {
   z-index: -1;
 }
 .breadcrumb-content {
-  padding-top: 340px;
-  padding-bottom: 220px;
+  padding-top: 240px;
+  padding-bottom: 100px;
   text-align: center;
 }
-.breadcrumb-content h1, .breadcrumb-content h2 {
+.breadcrumb-content h1,
+.breadcrumb-content h2 {
   font-size: 65px;
   font-weight: 700;
   color: #fff;
@@ -2528,7 +2541,8 @@ h4.blog-details-heading::after {
   border-radius: 50%;
   position: relative;
 }
-.section-title.contact-title h1, .section-title.contact-title h2 {
+.section-title.contact-title h1,
+.section-title.contact-title h2 {
   margin-bottom: 0;
 }
 #results-container {
