@@ -29,7 +29,7 @@ Rank | Website                                  | DA | Backlinks | YouTube | Twi
 ## How we picked the Top 10 PCB Manufacturers
 
 In this article, we are discussing the Top 10 Chinese PCB (PCBA) manufacturers in 2023. (Actually, picked 12.)
-To pick the right companies in our top-10 list, we collected 17 articles named like "Top 10 Chinese PCB Manufacturers in China". Suprisingly, we got total 91 PCB company names from those articles. We considered all these 91 companies as candidates for top-10 list and did through study.
+To pick the right companies in our top-10 list, we collected 17 articles named like "Top 10 Chinese PCB Manufacturers in China". Suprisingly, we got total 91 PCB company names from those articles. We considered all these 91 companies as candidates for top-10 list and did thorough study.
 
 The following factors are considered.
 
