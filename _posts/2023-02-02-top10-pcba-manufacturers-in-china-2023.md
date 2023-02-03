@@ -22,11 +22,13 @@ Rank | Website                                  | DA | Backlinks | YouTube | Twi
 8    | [PCBGogo](https://pcbgogo.com)           | 39 | 17k       | 503     | 1040    | 29.8k     | 882
 9    | [4PCB](https://4pcb.com)                 | 60 | 6.3k      |         |         |           | 882
 10   | [Moko Tech.](https://mokotechnology.com) | 42 | 64k       | 349     | 55      |           | 622
+11   | [PCBMay](https://www.pcbmay.com/)        | 11 | 210       | 1180    | 303     |           | 499
+12   | [Kingwong](https://www.kinwong.com)      | 44 | 34k       |         | 5       |           | 1020
 
 
 ## How we picked the Top 10 PCB Manufacturers
 
-In this article, we are discussing the Top 10 Chinese PCB (PCBA) manufacturers in 2023.
+In this article, we are discussing the Top 10 Chinese PCB (PCBA) manufacturers in 2023. (Actually, picked 12.)
 To pick the right companies in our top-10 list, we collected 17 articles named like "Top 10 Chinese PCB Manufacturers in China". Suprisingly, we got total 91 PCB company names from those articles. We considered all these 91 companies as candidates for top-10 list and did through study.
 
 The following factors are considered.
@@ -80,6 +82,14 @@ PCBGoGo is a full-service PCB prototyping and assembly company that can handle a
 ### #10. [Moko Technology](https://mokotechnology.com)
 
 Moko Technology offers One-stop Solution for all your PCB needs – from prototyping to PCB Moko Technology Logo manufacturing and PCB Assembly. Their vast experience experienced engineers and employees, and state-of-art machines always meet and even exceed their client’s expectations.
+
+### #11. [PCBMay](https://www.pcbmay.com/)
+
+PCBMay is yet another professional PCB fabrication and assembly manufacturer in China. It offers different types of PCB fabrication and assembly services, from prototype to mass production.
+
+### #12. [Kingwong](https://www.kinwong.com)
+
+Kingwong is having many big PCB fabricaion and assembly factories. By company scale, it can be compared as the one of largest manufacturers in China. Though the company itself is big, it is not well-known for supporting small quantity PCBA prototyping orders.
 
 
 ## Conclusion
