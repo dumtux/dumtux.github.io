@@ -7,7 +7,6 @@ post_image: "/assets/images/blog/top10-2023.png"
 author: Pottie
 ---
 
-
 China is one of the largest PCB producers in the world, and it is reported that China’s PCB market will reach US$19.6 billion in 2027, with a CAGR of 5.7%. This is mainly because of the development of China’s technology in recent years, which has improved the manufacturing capabilities of PCB suppliers, gradually transitioning from the production of simple PCBs to the production of complex and high-end PCBs.
 
 Rank | Website                                  | DA | Backlinks | YouTube | Twitter | Instagram | LinkedIn
@@ -25,8 +24,12 @@ Rank | Website                                  | DA | Backlinks | YouTube | Twi
 11   | [PCBMay](https://www.pcbmay.com/)        | 11 | 210       | 1180    | 303     |           | 499
 12   | [Kingwong](https://www.kinwong.com)      | 44 | 34k       |         | 5       |           | 1020
 
+<div class="youtube-video-container">
+    <iframe class="youtube-video" src="https://www.youtube.com/embed/9BDd_td0jtk" title="Top 10 Chinese PCB PCBA manufacturers in 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-## How we picked the Top 10 PCB Manufacturers
+
+## How we've picked the Top 10 PCB Manufacturers
 
 In this article, we are discussing the Top 10 Chinese PCB (PCBA) manufacturers in 2023. (Actually, picked 12.)
 To pick the right companies in our top-10 list, we collected 17 articles named like "Top 10 Chinese PCB Manufacturers in China". Suprisingly, we got total 91 PCB company names from those articles. We considered all these 91 companies as candidates for top-10 list and did thorough study.
