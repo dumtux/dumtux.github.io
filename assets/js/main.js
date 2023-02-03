@@ -2,9 +2,11 @@ $(function () {
   "use strict";
 
   //===== Prealoder
-  $(window).load(function () {
-    $("#loading").fadeOut(100);
-  });
+  // $(window).load(function () {
+  //   $("#loading").fadeOut(100);
+  // });
+
+  $("#loading").fadeOut(800);
 
   //header-scroll
   let areaHeight = $('[data-scroll-area="true"]').height();
