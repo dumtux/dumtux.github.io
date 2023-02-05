@@ -59,7 +59,9 @@
             {% if site.contact_wechat %}
             <div class="col-lg-4">
                 <div class="single-contact-area">
-                    <span><i class="fab fa-weixin"></i> {{site.contact_wechat}}</span>
+                    <a href="weixin://dl/chat?{{site.contact_wechat}}">
+                        <span><i class="fab fa-weixin"></i> {{site.contact_wechat}}</span>
+                    </a>
                 </div>
             </div>
             {% endif %}
