@@ -22,7 +22,7 @@ Rank | Website                                  | DA | Backlinks | YouTube | Twi
 9    | [4PCB](https://4pcb.com)                 | 60 | 6.3k      |         |         |           | 882
 10   | [Moko Tech.](https://mokotechnology.com) | 42 | 64k       | 349     | 55      |           | 622
 11   | [PCBMay](https://www.pcbmay.com/)        | 11 | 210       | 1180    | 303     |           | 499
-12   | [Kingwong](https://www.kinwong.com)      | 44 | 34k       |         | 5       |           | 1020
+12   | [Kinwong](https://www.kinwong.com)      | 44 | 34k       |         | 5       |           | 1020
 
 <div class="youtube-video-container">
     <iframe class="youtube-video" src="https://www.youtube.com/embed/9BDd_td0jtk" title="Top 10 Chinese PCB PCBA manufacturers in 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
