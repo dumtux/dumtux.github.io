@@ -19,6 +19,7 @@ contact_phone: '+86 13022481053'
 contact_wechat: pcbcrew
 contact_telegram: pcbcrew
 contact_whatsapp: "+8613022481053"
+contact_default_message: "Hi,20%there.20%I'd20%like20%to20%discuss20%about20%PCB."
 
 # Build settings
 theme: minima
