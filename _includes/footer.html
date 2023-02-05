@@ -38,24 +38,21 @@
             </div>
         </div>
         <div class="row mb-60">
-            {% if site.address %}
-            <div class="col-lg-4">
-                <div class="single-contact-area">
-                    <span><i class="fa fa-map-marker"></i> {{site.address}}</span>
-                </div>
-            </div>
-            {% endif %}
             {% if site.email %}
             <div class="col-lg-4">
                 <div class="single-contact-area">
-                    <span><i class="fa fa-envelope"></i> {{site.email}}</span>
+                    <a href="mailto:{{site.email}}">
+                        <span><i class="fa fa-envelope"></i> {{site.email}}</span>
+                    </a>
                 </div>
             </div>
             {% endif %}
             {% if site.contact_phone %}
             <div class="col-lg-4">
                 <div class="single-contact-area">
-                    <span><i class="fa fa-phone"></i> {{site.contact_phone}}</span>
+                    <a href="tel:{{site.phone_number}}">
+                        <span><i class="fa fa-phone"></i> {{site.contact_phone_display}}</span>
+                    </a>
                 </div>
             </div>
             {% endif %}
@@ -70,8 +67,8 @@
             <div class="col-lg-4">
                 <div class="single-contact-area">
                     <a href="https://wa.me/{{site.contact_whatsapp}}?text={{site.contact_whatsapp_default_message}}"
-                    target="_blank"
-                    rel="noopener noreferrer">
+                        target="_blank"
+                        rel="noopener noreferrer">
                         <span><i class="fab fa-whatsapp"></i> {{site.contact_whatsapp}}</span>
                     </a>
                 </div>
@@ -80,7 +77,20 @@
             {% if site.contact_telegram %}
             <div class="col-lg-4">
                 <div class="single-contact-area">
-                    <span><i class="fab fa-telegram"></i> {{site.contact_telegram}}</span>
+                    <a href="https://telegram.me/pcbcrew"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        <span><i class="fab fa-telegram"></i> {{site.contact_telegram}}</span>
+                    </a>
+                </div>
+            </div>
+            {% endif %}
+            {% if site.contact_skype %}
+            <div class="col-lg-4">
+                <div class="single-contact-area">
+                    <a href="skype:{{site.contact_skype}}?chat">
+                        <span><i class="fab fa-skype"></i> {{site.contact_skype_display}}</span>
+                    </a>
                 </div>
             </div>
             {% endif %}
