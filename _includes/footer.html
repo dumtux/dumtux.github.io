@@ -37,25 +37,46 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            {% if site.phone_number %}
+        <div class="row mb-60">
+            {% if site.address %}
             <div class="col-lg-4">
-                <div class="single-address-area">
-                    <span><i class="fa fa-arrow-right"></i> {{site.phone_number}}</span>
+                <div class="single-contact-area">
+                    <span><i class="fa fa-map-marker"></i> {{site.address}}</span>
                 </div>
             </div>
             {% endif %}
-            <!-- {% if site.email %}
+            {% if site.email %}
             <div class="col-lg-4">
-                <div class="single-address-area">
-                    <span><i class="fa fa-arrow-right"></i> {{site.email}}</span>
+                <div class="single-contact-area">
+                    <span><i class="fa fa-envelope"></i> {{site.email}}</span>
                 </div>
             </div>
-            {% endif %} -->
-            {% if site.address %}
+            {% endif %}
+            {% if site.contact_phone %}
             <div class="col-lg-4">
-                <div class="single-address-area">
-                    <span><i class="fa fa-arrow-right"></i> {{site.address}}</span>
+                <div class="single-contact-area">
+                    <span><i class="fa fa-phone"></i> {{site.contact_phone}}</span>
+                </div>
+            </div>
+            {% endif %}
+            {% if site.contact_wechat %}
+            <div class="col-lg-4">
+                <div class="single-contact-area">
+                    <span><i class="fab fa-weixin"></i> {{site.contact_wechat}}</span>
+                </div>
+            </div>
+            {% endif %}
+            {% if site.contact_whatsapp %}
+            <div class="col-lg-4">
+                <div class="single-contact-area">
+                    <span><i class="fab fa-whatsapp"></i> {{site.contact_whatsapp}}</span>
+                </div>
+            </div>
+            {% endif %}
+            {% if site.contact_telegram %}
+            <div class="col-lg-4">
+                <div class="single-contact-area">
+                    <span><i class="fab fa-telegram"></i> {{site.contact_telegram}}</span>
                 </div>
             </div>
             {% endif %}

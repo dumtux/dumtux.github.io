@@ -1801,48 +1801,24 @@ header {
   margin-top: 30px;
   margin-bottom: 80px;
 }
-.single-address-area {
-  margin-bottom: 80px;
+.single-contact-area {
+  margin-bottom: 20px;
 }
-.single-address-area span i {
+.single-contact-area span i {
+  border: solid 1px #aaa;
   width: 50px;
   height: 50px;
   text-align: center;
-  background: #f26c4f;
+  background: #182f5d;
   color: #fff;
   line-height: 50px;
   border-radius: 5px;
   margin-right: 20px;
-  font-size: 20px;
+  font-size: 32px;
 }
-.single-address-area span {
+.single-contact-area span {
   color: #fff;
   font-size: 23px;
-  font-weight: 500;
-}
-
-.btn.contact-btn {
-  margin-top: 30px;
-  margin-bottom: 80px;
-}
-.single-address-area {
-  margin-bottom: 80px;
-}
-
-.single-address-area span i {
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  background: #f26c4f;
-  color: #fff;
-  line-height: 50px;
-  border-radius: 5px;
-  margin-right: 20px;
-  font-size: 20px;
-}
-.single-address-area span {
-  color: #fff;
-  font-size: 20px;
   font-weight: 500;
 }
 
