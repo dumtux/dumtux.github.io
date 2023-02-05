@@ -4,26 +4,40 @@
         "website": "http://pcbway.com",
         "global_web_rank": "1e+99",
         "domain_authority": "69",
-        "back_link_count": "8600000",
-        "linking_website": "6200",
-        "youtube": "17000",
-        "twitter": "14200",
-        "instagram": "64099",
+        "back_link_count": "8.6M",
+        "linking_website": "6.2k",
+        "youtube": "17k",
+        "twitter": "14.2k",
+        "instagram": "64.1k",
         "linkedin": "",
-        "facebook": "49000"
+        "facebook": "49k",
+        "back_link_count_val": "8600000",
+        "linking_website_val": "6200",
+        "youtube_val": "17000",
+        "twitter_val": "14200",
+        "instagram_val": "64099",
+        "linkedin_val": "",
+        "facebook_val": "49000"
     },
     {
         "company": "JLC PCB",
         "website": "https://jlcpcb.com/",
         "global_web_rank": "41805",
         "domain_authority": "68",
-        "back_link_count": "237000",
-        "linking_website": "2300",
-        "youtube": "9000",
-        "twitter": "10000",
-        "instagram": "85500",
+        "back_link_count": "237k",
+        "linking_website": "2.3k",
+        "youtube": "9k",
+        "twitter": "10k",
+        "instagram": "85.5k",
         "linkedin": "9116",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "237000",
+        "linking_website_val": "2300",
+        "youtube_val": "9000",
+        "twitter_val": "10000",
+        "instagram_val": "85500",
+        "linkedin_val": "9116",
+        "facebook_val": ""
     },
     {
         "company": "Gold Seagull limited",
@@ -36,7 +50,14 @@
         "twitter": "5490",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "101",
+        "linking_website_val": "32",
+        "youtube_val": "",
+        "twitter_val": "5490",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "PCBGoGo",
@@ -47,22 +68,36 @@
         "linking_website": "7",
         "youtube": "503",
         "twitter": "1040",
-        "instagram": "29800",
+        "instagram": "29.8k",
         "linkedin": "882",
-        "facebook": "2100"
+        "facebook": "2.10k",
+        "back_link_count_val": "17",
+        "linking_website_val": "7",
+        "youtube_val": "503",
+        "twitter_val": "1040",
+        "instagram_val": "29800",
+        "linkedin_val": "882",
+        "facebook_val": "2100"
     },
     {
         "company": "PCBCart",
         "website": "https://www.pcbcart.com",
         "global_web_rank": "483147",
         "domain_authority": "52",
-        "back_link_count": "10000",
+        "back_link_count": "10k",
         "linking_website": "583",
         "youtube": "",
         "twitter": "784",
         "instagram": "2052",
         "linkedin": "7780",
-        "facebook": "1200"
+        "facebook": "1.2k",
+        "back_link_count_val": "10000",
+        "linking_website_val": "583",
+        "youtube_val": "",
+        "twitter_val": "784",
+        "instagram_val": "2052",
+        "linkedin_val": "7780",
+        "facebook_val": "1200"
     },
     {
         "company": "A-tech circuits",
@@ -75,20 +110,34 @@
         "twitter": "499",
         "instagram": "",
         "linkedin": "",
-        "facebook": "33"
+        "facebook": "33",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "22",
+        "twitter_val": "499",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": "33"
     },
     {
         "company": "AllPCB",
         "website": "https://www.allpcb.com/",
         "global_web_rank": "748074",
         "domain_authority": "49",
-        "back_link_count": "17000",
+        "back_link_count": "17k",
         "linking_website": "398",
         "youtube": "491",
         "twitter": "332",
         "instagram": "1626",
         "linkedin": "1001",
-        "facebook": "8300"
+        "facebook": "8.3k",
+        "back_link_count_val": "17000",
+        "linking_website_val": "398",
+        "youtube_val": "491",
+        "twitter_val": "332",
+        "instagram_val": "1626",
+        "linkedin_val": "1001",
+        "facebook_val": "8300"
     },
     {
         "company": "PCBMay",
@@ -97,11 +146,18 @@
         "domain_authority": "11",
         "back_link_count": "210",
         "linking_website": "55",
-        "youtube": "1180",
+        "youtube": "1.18k",
         "twitter": "303",
         "instagram": "",
         "linkedin": "499",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "210",
+        "linking_website_val": "55",
+        "youtube_val": "1180",
+        "twitter_val": "303",
+        "instagram_val": "",
+        "linkedin_val": "499",
+        "facebook_val": ""
     },
     {
         "company": "Multilayer PCB",
@@ -114,20 +170,34 @@
         "twitter": "286",
         "instagram": "470",
         "linkedin": "339",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "395",
+        "linking_website_val": "113",
+        "youtube_val": "",
+        "twitter_val": "286",
+        "instagram_val": "470",
+        "linkedin_val": "339",
+        "facebook_val": ""
     },
     {
         "company": "next PCB",
         "website": "http://www.nextpcb.com/?utm_source=Linkedin&utm_medium=click",
         "global_web_rank": "641331",
         "domain_authority": "51",
-        "back_link_count": "2000000",
+        "back_link_count": "2.0M",
         "linking_website": "390",
         "youtube": "513",
         "twitter": "180",
-        "instagram": "34500",
+        "instagram": "34.5k",
         "linkedin": "2941",
-        "facebook": "39000"
+        "facebook": "39k",
+        "back_link_count_val": "2000000",
+        "linking_website_val": "390",
+        "youtube_val": "513",
+        "twitter_val": "180",
+        "instagram_val": "34500",
+        "linkedin_val": "2941",
+        "facebook_val": "39000"
     },
     {
         "company": "PCBWin",
@@ -140,7 +210,14 @@
         "twitter": "153",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "227",
+        "linking_website_val": "20",
+        "youtube_val": "",
+        "twitter_val": "153",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "86PCB",
@@ -153,33 +230,54 @@
         "twitter": "73",
         "instagram": "",
         "linkedin": "5",
-        "facebook": "308"
+        "facebook": "308",
+        "back_link_count_val": "461",
+        "linking_website_val": "19",
+        "youtube_val": "2",
+        "twitter_val": "73",
+        "instagram_val": "",
+        "linkedin_val": "5",
+        "facebook_val": "308"
     },
     {
         "company": "Hi-tech circuits co. ltd.",
         "website": "https://hitechcircuits.com/",
         "global_web_rank": "8922898",
         "domain_authority": "32",
-        "back_link_count": "11000",
+        "back_link_count": "11k",
         "linking_website": "173",
         "youtube": "",
         "twitter": "63",
         "instagram": "130",
         "linkedin": "214",
-        "facebook": "145"
+        "facebook": "145",
+        "back_link_count_val": "11000",
+        "linking_website_val": "173",
+        "youtube_val": "",
+        "twitter_val": "63",
+        "instagram_val": "130",
+        "linkedin_val": "214",
+        "facebook_val": "145"
     },
     {
         "company": "Moko Technology",
         "website": "https://www.mokotechnology.com/",
         "global_web_rank": "1884645",
         "domain_authority": "42",
-        "back_link_count": "64000",
+        "back_link_count": "64k",
         "linking_website": "208",
         "youtube": "349",
         "twitter": "55",
         "instagram": "",
         "linkedin": "622",
-        "facebook": "646"
+        "facebook": "646",
+        "back_link_count_val": "64000",
+        "linking_website_val": "208",
+        "youtube_val": "349",
+        "twitter_val": "55",
+        "instagram_val": "",
+        "linkedin_val": "622",
+        "facebook_val": "646"
     },
     {
         "company": "ABP Electronic",
@@ -192,33 +290,54 @@
         "twitter": "46",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "181",
+        "linking_website_val": "27",
+        "youtube_val": "",
+        "twitter_val": "46",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "ChinaPCB one",
         "website": "https://www.chinapcbone.com/",
         "global_web_rank": "8703833",
         "domain_authority": "37",
-        "back_link_count": "3800",
+        "back_link_count": "3.8k",
         "linking_website": "469",
         "youtube": "",
         "twitter": "18",
         "instagram": "12",
         "linkedin": "240",
-        "facebook": "38"
+        "facebook": "38",
+        "back_link_count_val": "3800",
+        "linking_website_val": "469",
+        "youtube_val": "",
+        "twitter_val": "18",
+        "instagram_val": "12",
+        "linkedin_val": "240",
+        "facebook_val": "38"
     },
     {
         "company": "Kinwong",
         "website": "https://www.kinwong.com/",
         "global_web_rank": "691623",
         "domain_authority": "44",
-        "back_link_count": "34000",
+        "back_link_count": "34K",
         "linking_website": "142",
         "youtube": "",
         "twitter": "5",
         "instagram": "",
         "linkedin": "1020",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "34000",
+        "linking_website_val": "142",
+        "youtube_val": "",
+        "twitter_val": "5",
+        "instagram_val": "",
+        "linkedin_val": "1020",
+        "facebook_val": ""
     },
     {
         "company": "Aoke Electronic",
@@ -231,7 +350,14 @@
         "twitter": "1",
         "instagram": "",
         "linkedin": "369",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "38",
+        "linking_website_val": "23",
+        "youtube_val": "3",
+        "twitter_val": "1",
+        "instagram_val": "",
+        "linkedin_val": "369",
+        "facebook_val": ""
     },
     {
         "company": "Abis Circuit co. limited",
@@ -244,20 +370,34 @@
         "twitter": "0",
         "instagram": "",
         "linkedin": "244",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "59",
+        "linking_website_val": "16",
+        "youtube_val": "17",
+        "twitter_val": "0",
+        "instagram_val": "",
+        "linkedin_val": "244",
+        "facebook_val": ""
     },
     {
         "company": "4PCB",
         "website": "https://www.4pcb.com/about_us/",
         "global_web_rank": "1061303",
         "domain_authority": "60",
-        "back_link_count": "6300",
-        "linking_website": "1100",
+        "back_link_count": "6.3k",
+        "linking_website": "1.1k",
         "youtube": "9",
         "twitter": "0",
         "instagram": "",
         "linkedin": "882",
-        "facebook": "256"
+        "facebook": "256",
+        "back_link_count_val": "6300",
+        "linking_website_val": "1100",
+        "youtube_val": "9",
+        "twitter_val": "0",
+        "instagram_val": "",
+        "linkedin_val": "882",
+        "facebook_val": "256"
     },
     {
         "company": "dalian jy electronic",
@@ -270,7 +410,14 @@
         "twitter": "0",
         "instagram": "",
         "linkedin": "40",
-        "facebook": "39"
+        "facebook": "39",
+        "back_link_count_val": "20",
+        "linking_website_val": "9",
+        "youtube_val": "",
+        "twitter_val": "0",
+        "instagram_val": "",
+        "linkedin_val": "40",
+        "facebook_val": "39"
     },
     {
         "company": "Agile circuits ",
@@ -283,7 +430,14 @@
         "twitter": "0",
         "instagram": "714",
         "linkedin": "131",
-        "facebook": "1000"
+        "facebook": "1k",
+        "back_link_count_val": "98",
+        "linking_website_val": "35",
+        "youtube_val": "",
+        "twitter_val": "0",
+        "instagram_val": "714",
+        "linkedin_val": "131",
+        "facebook_val": "1000"
     },
     {
         "company": "daly circuit",
@@ -296,33 +450,54 @@
         "twitter": "0",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "0",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "RayMing technology",
         "website": "https://www.raypcb.com",
         "global_web_rank": "478132",
         "domain_authority": "60",
-        "back_link_count": "48000",
+        "back_link_count": "48k",
         "linking_website": "485",
         "youtube": "550",
         "twitter": "",
         "instagram": "",
         "linkedin": "8027",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "48000",
+        "linking_website_val": "485",
+        "youtube_val": "550",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "8027",
+        "facebook_val": ""
     },
     {
         "company": "Sun&lynn",
         "website": "http://www.pcb-factory.net/Mobile/Default.aspx",
         "global_web_rank": "1e+99",
         "domain_authority": "26",
-        "back_link_count": "4600",
+        "back_link_count": "4.6k",
         "linking_website": "14",
         "youtube": "68",
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "4600",
+        "linking_website_val": "14",
+        "youtube_val": "68",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Jinghua electronic technology",
@@ -335,7 +510,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "18",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "10",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "18",
+        "facebook_val": ""
     },
     {
         "company": "Bomin",
@@ -348,20 +530,34 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "169",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "537",
+        "linking_website_val": "97",
+        "youtube_val": "6",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "169",
+        "facebook_val": ""
     },
     {
         "company": "Shenzhen Boyunfa technology",
         "website": "https://www.pcbship.com/",
         "global_web_rank": "17884379",
         "domain_authority": "1.1",
-        "back_link_count": "12000",
+        "back_link_count": "12k",
         "linking_website": "18",
         "youtube": "6",
         "twitter": "",
         "instagram": "",
         "linkedin": "0",
-        "facebook": "1400"
+        "facebook": "1.4k",
+        "back_link_count_val": "12000",
+        "linking_website_val": "18",
+        "youtube_val": "6",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "0",
+        "facebook_val": "1400"
     },
     {
         "company": "Bicheng enterprises",
@@ -374,7 +570,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "36",
+        "linking_website_val": "15",
+        "youtube_val": "0",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Anyuamda",
@@ -387,20 +590,34 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "0",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "wellPCBTech co.ltd",
         "website": "https://www.wellpcb.com/",
         "global_web_rank": "541495",
         "domain_authority": "47",
-        "back_link_count": "9700",
+        "back_link_count": "9.7k",
         "linking_website": "451",
         "youtube": "",
         "twitter": "",
         "instagram": "",
         "linkedin": "3975",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "9700",
+        "linking_website_val": "451",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "3975",
+        "facebook_val": ""
     },
     {
         "company": "Victory Giant technology",
@@ -413,33 +630,54 @@
         "twitter": "",
         "instagram": "5",
         "linkedin": "304",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "677",
+        "linking_website_val": "126",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "5",
+        "linkedin_val": "304",
+        "facebook_val": ""
     },
     {
         "company": "Founder PCB",
         "website": "http://www.founderpcb.com/",
         "global_web_rank": "2527029",
         "domain_authority": "45",
-        "back_link_count": "25000",
+        "back_link_count": "25k",
         "linking_website": "133",
         "youtube": "",
         "twitter": "",
         "instagram": "",
         "linkedin": "513",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "25000",
+        "linking_website_val": "133",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "513",
+        "facebook_val": ""
     },
     {
         "company": "Suntak",
         "website": "http://www.suntakpcb.com/",
         "global_web_rank": "3017948",
         "domain_authority": "45",
-        "back_link_count": "13000",
+        "back_link_count": "13k",
         "linking_website": "149",
         "youtube": "",
         "twitter": "",
         "instagram": "10",
         "linkedin": "499",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "13000",
+        "linking_website_val": "149",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "10",
+        "linkedin_val": "499",
+        "facebook_val": ""
     },
     {
         "company": "WUS printed circuit ",
@@ -452,33 +690,54 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "196",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "384",
+        "linking_website_val": "104",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "196",
+        "facebook_val": ""
     },
     {
         "company": "UET PCB",
         "website": "https://uetpcb.com/",
         "global_web_rank": "7511260",
         "domain_authority": "35",
-        "back_link_count": "1000",
+        "back_link_count": "1.0k",
         "linking_website": "331",
         "youtube": "",
         "twitter": "",
         "instagram": "1164",
         "linkedin": "274",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "1000",
+        "linking_website_val": "331",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "1164",
+        "linkedin_val": "274",
+        "facebook_val": ""
     },
     {
         "company": "DSBJ",
         "website": "http://www.sz-dsbj.com/",
         "global_web_rank": "8178179",
         "domain_authority": "34",
-        "back_link_count": "2600",
+        "back_link_count": "2.6k",
         "linking_website": "116",
         "youtube": "",
         "twitter": "",
         "instagram": "",
         "linkedin": "254",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "2600",
+        "linking_website_val": "116",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "254",
+        "facebook_val": ""
     },
     {
         "company": "CCTC",
@@ -491,7 +750,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "18",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "501",
+        "linking_website_val": "62",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "18",
+        "facebook_val": ""
     },
     {
         "company": "Olympic",
@@ -504,7 +770,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "21",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "76",
+        "linking_website_val": "29",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "21",
+        "facebook_val": ""
     },
     {
         "company": "FSquality",
@@ -517,7 +790,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "65",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "139",
+        "linking_website_val": "44",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "65",
+        "facebook_val": ""
     },
     {
         "company": "AKM meadvilla",
@@ -530,7 +810,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "187",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "48",
+        "linking_website_val": "8",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "187",
+        "facebook_val": ""
     },
     {
         "company": "guangdong kingshine electronic",
@@ -543,7 +830,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "62",
-        "facebook": "1"
+        "facebook": "1",
+        "back_link_count_val": "84",
+        "linking_website_val": "37",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "62",
+        "facebook_val": "1"
     },
     {
         "company": "Shenzhen PCB",
@@ -556,7 +850,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "35",
+        "linking_website_val": "7",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "utility electrical co. ltd. ",
@@ -569,7 +870,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "318",
-        "facebook": "86"
+        "facebook": "86",
+        "back_link_count_val": "119",
+        "linking_website_val": "37",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "318",
+        "facebook_val": "86"
     },
     {
         "company": "huanyu future technology",
@@ -582,7 +890,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "23",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "94",
+        "linking_website_val": "40",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "23",
+        "facebook_val": ""
     },
     {
         "company": "Head electronic co. ltd.",
@@ -595,7 +910,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "10",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "159",
+        "linking_website_val": "91",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "10",
+        "facebook_val": ""
     },
     {
         "company": "Guangdong sayfu multilayer circuits ",
@@ -608,7 +930,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "46",
-        "facebook": "1800"
+        "facebook": "1.8k",
+        "back_link_count_val": "39",
+        "linking_website_val": "17",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "46",
+        "facebook_val": "1800"
     },
     {
         "company": "Fast PCB union",
@@ -621,7 +950,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "70",
-        "facebook": "685"
+        "facebook": "685",
+        "back_link_count_val": "67",
+        "linking_website_val": "21",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "70",
+        "facebook_val": "685"
     },
     {
         "company": "Ellington(zhonghan)",
@@ -634,7 +970,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "52",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "52",
+        "facebook_val": ""
     },
     {
         "company": "Suntek Electronic",
@@ -647,7 +990,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "48",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "8",
+        "linking_website_val": "4",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "48",
+        "facebook_val": ""
     },
     {
         "company": "China PCB circuit",
@@ -660,7 +1010,14 @@
         "twitter": "",
         "instagram": "488",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "488",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "printed Circuit ",
@@ -673,7 +1030,14 @@
         "twitter": "",
         "instagram": "127",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "127",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Global PCB",
@@ -686,7 +1050,14 @@
         "twitter": "",
         "instagram": "5",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "8",
+        "linking_website_val": "6",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "5",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "shenzhen STHL technology ",
@@ -699,7 +1070,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": "151"
+        "facebook": "151",
+        "back_link_count_val": "28",
+        "linking_website_val": "17",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": "151"
     },
     {
         "company": "Sunking circuit co.",
@@ -712,7 +1090,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Daubond",
@@ -725,7 +1110,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Fuchar Electronic",
@@ -738,7 +1130,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Gola phoneric PCB",
@@ -751,7 +1150,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Guangdong chengde electronic technology ",
@@ -764,7 +1170,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": "18"
+        "facebook": "18",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": "18"
     },
     {
         "company": "Honflex",
@@ -777,7 +1190,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "JCD",
@@ -790,7 +1210,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Kapton PCB",
@@ -803,7 +1230,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Keeling electronic",
@@ -816,7 +1250,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Kingspine",
@@ -829,7 +1270,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Mingda electronic",
@@ -842,7 +1290,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Multitech electron HK Ltd.",
@@ -855,7 +1310,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "PCBA Nom",
@@ -868,7 +1330,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Q8D",
@@ -881,7 +1350,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Rachtec Industrial Company",
@@ -894,7 +1370,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Ray PCB",
@@ -907,7 +1390,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "sanbop circuit tech",
@@ -920,7 +1410,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "SDG",
@@ -933,7 +1430,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "SGcircuits",
@@ -946,7 +1450,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Shenyi PCB",
@@ -959,7 +1470,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "shenzhen Minor technology ",
@@ -972,7 +1490,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "shenzhen mitadami technology",
@@ -985,7 +1510,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Smarton",
@@ -998,7 +1530,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Transimage",
@@ -1011,7 +1550,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "wieye circuit brand ",
@@ -1024,7 +1570,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "WT2",
@@ -1037,7 +1590,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Xinxu PCB",
@@ -1050,7 +1610,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Xunjexing",
@@ -1063,7 +1630,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Yanzi PCB",
@@ -1076,7 +1650,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "YDET",
@@ -1089,7 +1670,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "SHC Electronic",
@@ -1102,7 +1690,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Shenzhen fast PCB tech",
@@ -1115,7 +1710,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": "237"
+        "facebook": "237",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": "237"
     },
     {
         "company": "Shenzhen king chuang tech and electronics ",
@@ -1128,7 +1730,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Shenzhen minicom",
@@ -1141,7 +1750,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "top fast guandong technology",
@@ -1154,7 +1770,14 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     },
     {
         "company": "Top quality PCB",
@@ -1167,6 +1790,13 @@
         "twitter": "",
         "instagram": "",
         "linkedin": "",
-        "facebook": ""
+        "facebook": "",
+        "back_link_count_val": "0",
+        "linking_website_val": "0",
+        "youtube_val": "",
+        "twitter_val": "",
+        "instagram_val": "",
+        "linkedin_val": "",
+        "facebook_val": ""
     }
 ]

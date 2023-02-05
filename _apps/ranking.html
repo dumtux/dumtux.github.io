@@ -28,13 +28,13 @@ permalink: "/apps/ranking/"
         <td><a href="{{row['website']}}">{{row.company}}</a></td>
         <td>{{row['global_web_rank']}}</td>
         <td>{{row['domain_authority']}}</td>
-        <td>{{row['back_link_count']}}</td>
-        <td>{{row['linking_website']}}</td>
-        <td>{{row['youtube']}}</td>
-        <td>{{row['twitter']}}</td>
-        <td>{{row['instagram']}}</td>
-        <td>{{row['linkedin']}}</td>
-        <td>{{row['facebook']}}</td>
+        <td data-sort="{{row['back_link_count_val']}}"">{{row['back_link_count']}}</td>
+        <td data-sort="{{row['linking_website_val']}}"">{{row['linking_website']}}</td>
+        <td data-sort="{{row['youtube_val']}}"">{{row['youtube']}}</td>
+        <td data-sort="{{row['twitter_val']}}"">{{row['twitter']}}</td>
+        <td data-sort="{{row['instagram_val']}}"">{{row['instagram']}}</td>
+        <td data-sort="{{row['linkedin_val']}}"">{{row['linkedin']}}</td>
+        <td data-sort="{{row['facebook_val']}}"">{{row['facebook']}}</td>
       </tr>
       {% endfor %}
     </tbody>
