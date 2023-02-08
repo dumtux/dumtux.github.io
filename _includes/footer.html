@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="row mb-60">
-            {% if site.email %}
+            <!-- {% if site.email %}
             <div class="col-lg-4">
                 <div class="single-contact-area">
                     <a href="mailto:{{site.email}}">
@@ -46,8 +46,8 @@
                     </a>
                 </div>
             </div>
-            {% endif %}
-            <!-- {% if site.contact_phone %}
+            {% endif %} -->
+            {% if site.contact_phone %}
             <div class="col-lg-4">
                 <div class="single-contact-area">
                     <a href="tel:{{site.phone_number}}">
@@ -55,8 +55,8 @@
                     </a>
                 </div>
             </div>
-            {% endif %} -->
-            <!-- {% if site.contact_wechat %}
+            {% endif %}
+            {% if site.contact_wechat %}
             <div class="col-lg-4">
                 <div class="single-contact-area">
                     <a href="weixin://dl/chat?{{site.contact_wechat}}">
@@ -64,8 +64,8 @@
                     </a>
                 </div>
             </div>
-            {% endif %} -->
-            <!-- {% if site.contact_whatsapp %}
+            {% endif %}
+            {% if site.contact_whatsapp %}
             <div class="col-lg-4">
                 <div class="single-contact-area">
                     <a href="https://wa.me/{{site.contact_whatsapp}}?text={{site.contact_whatsapp_default_message}}"
@@ -75,7 +75,7 @@
                     </a>
                 </div>
             </div>
-            {% endif %} -->
+            {% endif %}
             {% if site.contact_telegram %}
             <div class="col-lg-4">
                 <div class="single-contact-area">
