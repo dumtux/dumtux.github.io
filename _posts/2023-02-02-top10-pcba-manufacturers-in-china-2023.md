@@ -7,26 +7,26 @@ post_image: "/assets/images/blog/top10-2023.png"
 author: Pottie
 ---
 
-(last updated on Feb 22th, 2023)
+(last updated on Feb 22nd, 2023)
 
 China is one of the largest PCB producers in the world, and it is reported that China’s PCB market will reach US$19.6 billion in 2027, with a CAGR of 5.7%. This is mainly because of the development of China’s technology in recent years, which has improved the manufacturing capabilities of PCB suppliers, gradually transitioning from the production of simple PCBs to the production of complex and high-end PCBs.
 
 Rank | Website                                  | DA  | Backlinks | YouTube | Twitter | Instagram | LinkedIn
 -----|------------------------------------------|-----|-----------|---------|---------|-----------|---------
-1    | [PCBWay](https://pcbway.com)             | 69  | 7.9M      | 6.2k    | 14.5    | 64.3k     | 8223
-2    | [JLCPCB](https://jlcpcb.com)             | 68  | 6.0M      | 3.1k    | 10.1    | 85.7k     | 9290
-3    | [RayMing](https://raypcb.com)            | 60  | 78k       | 1.9k    |         |           | 4011
-4    | [PCBCart](https://pcbcart.com)           | 53  | 14k       | 1.3k    | 784     | 2040      | 170
-5    | [WellPCB](https://wellpcb.com)           | 48  | 64k       | 2.9k    | 96      | 25        | 377
-6    | [NextPCB](http://nextpcb.com)            | 51  | 2.0M      | 1.1k    | 181     | 37.6k     | 899
-7    | [AllPCB](https://allpcb.com)             | 49  | 50k       | 1.0k    | 334     | 1642      | 190
-8    | [PCBGogo](https://pcbgogo.com)           | 39  | 64k       | 1.5k    | 1040    | 29.8k     | 502
-9    | [4PCB](https://4pcb.com)                 | 60  | 27K       | 2.0k    |         |           | 5101
-10   | [Moko Tech.](https://mokotechnology.com) | 42  | 67k       | 764     | 55      |           | 1192
-11   | [PCBMay](https://www.pcbmay.com/)        | 12  | 1.8k      | 509     | 305     |           | 2948
-12   | [Kinwong](https://www.kinwong.com)       | 48  | 35k       | 205     | 5       |           | 1447
+1    | [PCBWay](https://pcbway.com)             | 69  | 7.9M      | 17.2k   | 14.5    | 64.3k     | 8223
+2    | [JLCPCB](https://jlcpcb.com)             | 68  | 6.0M      | 9.22k   | 10.1    | 85.7k     | 9290
+3    | [RayMing](https://raypcb.com)            | 60  | 78k       | 553     |         |           | 4011
+4    | [PCBCart](https://pcbcart.com)           | 53  | 14k       |         | 784     | 2040      | 170
+5    | [WellPCB](https://wellpcb.com)           | 48  | 64k       | 454     | 96      | 25        | 377
+6    | [NextPCB](http://nextpcb.com)            | 51  | 2.0M      | 541     | 181     | 37.6k     | 899
+7    | [AllPCB](https://allpcb.com)             | 49  | 50k       | 549     | 334     | 1642      | 190
+8    | [PCBGogo](https://pcbgogo.com)           | 39  | 64k       | 506     | 1040    | 29.8k     | 502
+9    | [4PCB](https://4pcb.com)                 | 60  | 27K       | 217     |         |           | 5101
+10   | [Moko Tech.](https://mokotechnology.com) | 42  | 67k       | 353     | 55      |           | 1192
+11   | [PCBMay](https://www.pcbmay.com/)        | 12  | 1.8k      | 1.18k   | 305     |           | 2948
+12   | [Kinwong](https://www.kinwong.com)       | 48  | 35k       | 20      | 5       |           | 1447
 ...  | ...                                      | ... | ...       | ...     | ...     | ...       | ...
-?    | [PCBCrew](https://www.pcbcrew.com)       | 0.6 | 335       | 24      | 15      | 197       | 90
+?    | [PCBCrew](https://www.pcbcrew.com)       | 0.6 | 335       | 1       | 15      | 197       | 90
 
 <div class="youtube-video-container">
     <iframe class="youtube-video" src="https://www.youtube.com/embed/9BDd_td0jtk" title="Top 10 Chinese PCB PCBA manufacturers in 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
