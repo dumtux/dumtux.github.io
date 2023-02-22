@@ -7,22 +7,26 @@ post_image: "/assets/images/blog/top10-2023.png"
 author: Pottie
 ---
 
+(last updated on Feb 22th, 2023)
+
 China is one of the largest PCB producers in the world, and it is reported that China’s PCB market will reach US$19.6 billion in 2027, with a CAGR of 5.7%. This is mainly because of the development of China’s technology in recent years, which has improved the manufacturing capabilities of PCB suppliers, gradually transitioning from the production of simple PCBs to the production of complex and high-end PCBs.
 
-Rank | Website                                  | DA | Backlinks | YouTube | Twitter | Instagram | LinkedIn
------|------------------------------------------|----|-----------|---------|---------|-----------|---------
-1    | [PCBWay](https://pcbway.com)             | 69 | 8.6M      | 17k     | 14k     | 64k       |
-2    | [JLCPCB](https://jlcpcb.com)             | 68 | 237k      | 9k      | 10k     | 85k       | 9116
-3    | [RayMing](https://raypcb.com)            | 60 | 48k       | 550     |         |           | 8027
-4    | [PCBCart](https://pcbcart.com)           | 52 | 10k       |         | 784     | 2052      | 7780
-5    | [WellPCB](https://wellpcb.com)           | 47 | 9.7k      |         |         |           | 3975
-6    | [NextPCB](http://nextpcb.com)            | 51 | 2.0M      | 513     | 180     | 34.5k     | 2941
-7    | [AllPCB](https://allpcb.com)             | 49 | 17k       | 491     | 332     | 1626      | 1001
-8    | [PCBGogo](https://pcbgogo.com)           | 39 | 17k       | 503     | 1040    | 29.8k     | 882
-9    | [4PCB](https://4pcb.com)                 | 60 | 6.3k      |         |         |           | 882
-10   | [Moko Tech.](https://mokotechnology.com) | 42 | 64k       | 349     | 55      |           | 622
-11   | [PCBMay](https://www.pcbmay.com/)        | 11 | 210       | 1180    | 303     |           | 499
-12   | [Kinwong](https://www.kinwong.com)      | 44 | 34k       |         | 5       |           | 1020
+Rank | Website                                  | DA  | Backlinks | YouTube | Twitter | Instagram | LinkedIn
+-----|------------------------------------------|-----|-----------|---------|---------|-----------|---------
+1    | [PCBWay](https://pcbway.com)             | 69  | 7.9M      | 6.2k    | 14.5    | 64.3k     | 8223
+2    | [JLCPCB](https://jlcpcb.com)             | 68  | 6.0M      | 3.1k    | 10.1    | 85.7k     | 9290
+3    | [RayMing](https://raypcb.com)            | 60  | 78k       | 1.9k    |         |           | 4011
+4    | [PCBCart](https://pcbcart.com)           | 53  | 14k       | 1.3k    | 784     | 2040      | 170
+5    | [WellPCB](https://wellpcb.com)           | 48  | 64k       | 2.9k    | 96      | 25        | 377
+6    | [NextPCB](http://nextpcb.com)            | 51  | 2.0M      | 1.1k    | 181     | 37.6k     | 899
+7    | [AllPCB](https://allpcb.com)             | 49  | 50k       | 1.0k    | 334     | 1642      | 190
+8    | [PCBGogo](https://pcbgogo.com)           | 39  | 64k       | 1.5k    | 1040    | 29.8k     | 502
+9    | [4PCB](https://4pcb.com)                 | 60  | 27K       | 2.0k    |         |           | 5101
+10   | [Moko Tech.](https://mokotechnology.com) | 42  | 67k       | 764     | 55      |           | 1192
+11   | [PCBMay](https://www.pcbmay.com/)        | 12  | 1.8k      | 509     | 305     |           | 2948
+12   | [Kinwong](https://www.kinwong.com)       | 48  | 35k       | 205     | 5       |           | 1447
+...  | ...                                      | ... | ...       | ...     | ...     | ...       | ...
+?    | [PCBCrew](https://www.pcbcrew.com)       | 0.6 | 335       | 24      | 15      | 197       | 90
 
 <div class="youtube-video-container">
     <iframe class="youtube-video" src="https://www.youtube.com/embed/9BDd_td0jtk" title="Top 10 Chinese PCB PCBA manufacturers in 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -33,8 +37,10 @@ Rank | Website                                  | DA | Backlinks | YouTube | Twi
 
 In this article, we are discussing the Top 10 Chinese PCB (PCBA) manufacturers in 2023. (Actually, picked 12.)
 To pick the right companies in our top-10 list, we collected 17 articles named like "Top 10 Chinese PCB Manufacturers in China". Suprisingly, we got total 91 PCB company names from those articles. We considered all these 91 companies as candidates for top-10 list and did thorough study.
+For the full ranking index, check [All Chinese PCB Manufacturer Ranking](https://pcbcrew.com/apps/ranking/).
 
 The following factors are considered.
+Domain authority and backlinks results are from [arefs website](https://ahrefs.com/backlink-checker?).
 
 * Domain Authority
 * Backlinks
