@@ -27,6 +27,7 @@ In order to use Microdot with ESP32, we need to follow certain steps. Firstly, w
 python3 -m pip install esptool
 python3 -m pip install adafruit-ampy
 ```
+
 ## Uploading Micropython Firmware
 
 Next step is downloading MicroPython firmware for your board from the Micropython [Micropython Website](https://micropython.org/download/esp32/), Once downloaded, you can erase the flash on your board using the following command in the terminal:
@@ -90,7 +91,6 @@ now it is time to run microdot on esp32 and start serving webpages, add the foll
 Now we can import Microdot module and start writing the webserver code. First, import the required libraries and create an instance of the Microdot class:
 
 ```python
-import uasyncio
 from microdot_asyncio import Microdot
 
 app = Microdot()
@@ -102,7 +102,7 @@ Next, create a route for the server to handle, in this case a simple hello world
 def index(request):
     return 'Hello, world!'
 
-app.run()
+app.run(port=80)
 ```
 
 ## Testing Webserver
@@ -118,3 +118,78 @@ After reading a request you must see "Hello, world!" message on the webpage or p
 ![Curl Request Result](/assets/images/blog/esp32-microdot/result-curl.png "Curl Request Result")
 
 ![Browser Request Result](/assets/images/blog/esp32-microdot/result-browser.png "Browser Request Result")
+
+## Toggling LED from Webapp
+
+Next thing we want to in the article is making an led blink. We need to reset esp32 board and starting writing code to it.
+
+First step is to define led gpio as output(select gpio number according to your board):
+```python
+import machine
+
+gpioNum = 5
+led = machine.Pin(gpioNum, machine.Pin.OUT)
+# turn off led with pull-up resistor, write 0 if it is connected to a pull-down resistor
+```
+
+you can test the led working with:
+```python
+led.value(0)
+led.value(1)
+```
+
+Then we need to write the code to connect to wifi station:
+```python
+import network
+
+ssid = "your_SSID"
+password = "your_WIFI_password"
+
+station = network.WLAN(network.STA_IF)
+station.active(True)
+station.connect(ssid, password)
+
+while not station.isconnected():
+    pass
+
+print("Connection successful")
+print(station.ifconfig())
+```
+
+now we need to write microdot code to server our webserver
+```python
+from microdot_asyncio import Microdot
+
+app = Microdot()
+
+htmlDoc = '''
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h1>PCBCrew Team</h1>
+
+    <button type="button" onclick="toggleLed()">Toggle Led</button>
+
+</body>
+
+</html>
+
+<script>
+    async function toggleLed() {
+        const resp = await fetch(
+            "http://192.168.43.238/toggle"
+        );
+        resp = await resp.json();
+    }
+</script>'''
+
+@app.route('/')
+def index(request):
+   return htmlDoc, 200, {'Content-Type': 'text/html'}
+
+@app.route('/toggle')
+def toggleLed(request):
+    led.value(not led.value())
+```
