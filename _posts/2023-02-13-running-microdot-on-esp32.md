@@ -121,24 +121,26 @@ After reading a request you must see "Hello, world!" message on the webpage or p
 
 ## Toggling LED from Webapp
 
-Next thing we want to in the article is making an led blink. We need to reset esp32 board and starting writing code to it.
+Next thing we want to in the article is making an led blink . We need to reset esp32 board and starting writing code to it.
 
-First step is to define led gpio as output(select gpio number according to your board):
+Define the LED GPIO as an output, selecting the GPIO number according to your board:
+
 ```python
 import machine
 
 gpioNum = 5
 led = machine.Pin(gpioNum, machine.Pin.OUT)
-# turn off led with pull-up resistor, write 0 if it is connected to a pull-down resistor
 ```
 
-you can test the led working with:
+You can test the LED working with the following code:
+
 ```python
 led.value(0)
 led.value(1)
 ```
 
-Then we need to write the code to connect to wifi station:
+Write the code to connect to the WiFi station:
+
 ```python
 import network
 
@@ -157,6 +159,7 @@ print(station.ifconfig())
 ```
 
 now we need to write microdot code to server our webserver
+
 ```python
 from microdot_asyncio import Microdot
 
@@ -193,3 +196,13 @@ def index(request):
 def toggleLed(request):
     led.value(not led.value())
 ```
+
+It is time to start webserver with:
+
+```python
+app.run(port=80)
+```
+
+After getting webserver running reach out to the browser and enter your board IP accordingly, A button will appear in the webpage, clicking this button will toggle led connected to the board:
+
+![Led Toggle](/assets/gifs/blog/esp32-microdot/toggle-led.mp4)
