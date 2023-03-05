@@ -33,10 +33,10 @@ projects_settings:
   counter:
     - icon: '<i class="fas fa-rocket"></i>'
       name: "PCBA order completed"
-      count: 360
+      count: 365
     - icon: '<i class="fas fa-life-ring"></i>'
       name: "Schematics & PCB design"
-      count: 125
+      count: 130
     - icon: '<i class="fas fa-trophy"></i>'
       name: "3D enclosure design"
       count: 30
