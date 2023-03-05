@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Started with Microdot on ESP32"
-date: 2023-02-12 00:00:01 +0600
+date: 2023-03-06 00:00:01 +0600
 categories: [ESP32, MicroPython, Microdot]
 post_image: "/assets/images/blog/esp32-microdot.png"
 author: thecapn32
