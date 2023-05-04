@@ -4,7 +4,7 @@ title: "Frequently Asked Questions About DC-DC Converters"
 date: 2023-01-28 00:00:01 +0600
 categories: [Electronics]
 post_image: "/assets/images/blog/dc-dc-modules.png"
-author: Pottie
+author: DumTux
 ---
 
 ## What is a DC-DC converter?

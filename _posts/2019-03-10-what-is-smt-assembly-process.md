@@ -4,7 +4,7 @@ title: "What is SMT Assembly process"
 date: 2019-03-10 20:37:13 +0600
 # tag: wordpress, php
 categories: [PCB Assembly]
-author: Pottie
+author: DumTux
 post_image: "/assets/images/blog/smt-assembly.png"
 ---
 

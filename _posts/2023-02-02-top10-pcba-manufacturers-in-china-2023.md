@@ -4,7 +4,7 @@ title: "Top 10 Chinese PCB Manufacturers in 2023"
 date: 2023-02-02 00:00:01 +0600
 categories: [PCB Assembly]
 post_image: "/assets/images/blog/top10-2023.png"
-author: Pottie
+author: DumTux
 ---
 
 (last updated on Feb 22nd, 2023)
